@@ -28,13 +28,13 @@
         "isScrollToTopButton": true
       },
       "additionalSetColors": [
+        "#0edff5",
         "#e282e9",
         "#000000",
         "#11f53a",
         "#149cf2",
         "#1431f2",
-        "#0ea7f5",
-        "#0e6ff5"
+        "#0ea7f5"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -650,7 +650,7 @@
             }
           },
           "_name": "gallery2",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полная ширина\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Градиентное наложение\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Наложение  Цвет 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Галерея\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-show-filter></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полная ширина\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Градиентное наложение\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Наложение  Цвет 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Галерея\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-show-bullets mbr-gallery-show-text mbr-gallery-show-filter></div>\n    </div>\n\n</section>",
           "_cid": "s4aenEil2o",
           "_anchor": "gallery2-a",
           "_protectedParams": [
@@ -662,7 +662,7 @@
           "_global": false,
           "_once": false,
           "_params": {
-            "text_all": "All",
+            "text_all": "Все",
             "gallery__filtersTextStyle": "display-7",
             "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
@@ -671,8 +671,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
                 "playVideo": false,
                 "videoUrl": "",
-                "image": "@PROJECT_PATH@/assets/images/2017-mykolaiv-reconstruction-1-1140x740.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2017-mykolaiv-reconstruction-1-1140x740-800x519.jpg",
+                "image": "@PROJECT_PATH@/assets/images/crimea-1140x740.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/crimea-1140x740-800x519.jpg",
                 "alt": "Земляные работы в Крыму - Оползневое, строительство отеля класса Люкс - ТОВ Автогран",
                 "title": "Земляные работы в Крыму - Оползневое, строительство отеля класса Люкс - ТОВ Автогран",
                 "customStyle1": "display-7",
@@ -725,19 +725,6 @@
                 "videoUrl": "",
                 "image": "@PROJECT_PATH@/assets/images/2017-mykolaiv-reconstruction-5-1140x740.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/2017-mykolaiv-reconstruction-5-1140x740-800x519.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Введите заголовок здесь",
-                "active": false
-              },
-              {
-                "tags": "Асфальтирование",
-                "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
-                "playVideo": false,
-                "videoUrl": "",
-                "image": "@PROJECT_PATH@/assets/images/imag0435-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/imag0435-2000x1500-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -827,19 +814,6 @@
                 "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
                 "playVideo": false,
                 "videoUrl": "",
-                "image": "@PROJECT_PATH@/assets/images/img-13ead3e8b5cb71010ee36937e9d8285c-v-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-13ead3e8b5cb71010ee36937e9d8285c-v-2000x1500-800x600.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Введите заголовок здесь",
-                "active": false
-              },
-              {
-                "tags": "Асфальтирование",
-                "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
-                "playVideo": false,
-                "videoUrl": "",
                 "image": "@PROJECT_PATH@/assets/images/img-86dcb1cb6098e2cbb00933cf1629418a-v-720x1280.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-86dcb1cb6098e2cbb00933cf1629418a-v-720x1280-720x1280.jpg",
                 "alt": "",
@@ -868,19 +842,6 @@
                 "videoUrl": "",
                 "image": "@PROJECT_PATH@/assets/images/makarov-1140x740.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/makarov-1140x740-800x519.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Введите заголовок здесь",
-                "active": false
-              },
-              {
-                "tags": "Асфальтирование",
-                "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
-                "playVideo": false,
-                "videoUrl": "",
-                "image": "@PROJECT_PATH@/assets/images/makarov-2-1140x740.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/makarov-2-1140x740-800x519.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -996,32 +957,6 @@
                 "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
                 "playVideo": false,
                 "videoUrl": "",
-                "image": "@PROJECT_PATH@/assets/images/imag7641-2000x1131.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/imag7641-2000x1131-800x452.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Введите заголовок здесь",
-                "active": false
-              },
-              {
-                "tags": "Демонтаж",
-                "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
-                "playVideo": false,
-                "videoUrl": "",
-                "image": "@PROJECT_PATH@/assets/images/img-45d076ff2719d5fd33a703c9f0fb3dc7-v-1280x720.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-45d076ff2719d5fd33a703c9f0fb3dc7-v-1280x720-800x450.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Введите заголовок здесь",
-                "active": false
-              },
-              {
-                "tags": "Демонтаж",
-                "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
-                "playVideo": false,
-                "videoUrl": "",
                 "image": "@PROJECT_PATH@/assets/images/img-51f490bacd5657794742bb82bd610886-v-1280x720.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-51f490bacd5657794742bb82bd610886-v-1280x720-800x450.jpg",
                 "alt": "",
@@ -1035,8 +970,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
                 "playVideo": false,
                 "videoUrl": "",
-                "image": "@PROJECT_PATH@/assets/images/img-068a60e28c17ef78fa45bb52fc6e5f99-v-1280x720.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-068a60e28c17ef78fa45bb52fc6e5f99-v-1280x720-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-91560aa03bd6e4502a9446ba7ad6041a-v-1280x720.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-91560aa03bd6e4502a9446ba7ad6041a-v-1280x720-800x450.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -1044,12 +979,12 @@
                 "active": false
               },
               {
-                "tags": "Демонтаж",
-                "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
-                "playVideo": false,
-                "videoUrl": "",
-                "image": "@PROJECT_PATH@/assets/images/img-91560aa03bd6e4502a9446ba7ad6041a-v-1280x720.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-91560aa03bd6e4502a9446ba7ad6041a-v-1280x720-800x450.jpg",
+                "tags": "Автогран видео",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise202068-2348402020-6-4-0-26-14.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=OoiXADeDaf4",
+                "image": "@PROJECT_PATH@/assets/images/img-068a60e28c17ef78fa45bb52fc6e5f99-v-1280x720.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-068a60e28c17ef78fa45bb52fc6e5f99-v-1280x720-800x450.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -1122,7 +1057,7 @@
                 "active": false
               },
               {
-                "tags": "Демонтаж",
+                "tags": "Благоустройство",
                 "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
                 "playVideo": false,
                 "videoUrl": "",
@@ -1132,10 +1067,10 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Введите заголовок здесь",
-                "active": true
+                "active": false
               },
               {
-                "tags": "",
+                "tags": "Земляные работы",
                 "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
                 "playVideo": false,
                 "videoUrl": "",
@@ -1144,11 +1079,11 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Введите заголовок здесь",
+                "caption": "Разработка котлованов, перевозка грунта, подготовка фундамента для строительства - Крым",
                 "active": false
               },
               {
-                "tags": "",
+                "tags": "Земляные работы",
                 "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
                 "playVideo": false,
                 "videoUrl": "",
@@ -1161,7 +1096,7 @@
                 "active": false
               },
               {
-                "tags": "",
+                "tags": "Земляные работы",
                 "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
                 "playVideo": false,
                 "videoUrl": "",
@@ -1174,20 +1109,7 @@
                 "active": false
               },
               {
-                "tags": "",
-                "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
-                "playVideo": false,
-                "videoUrl": "",
-                "image": "@PROJECT_PATH@/assets/images/crimea-17-1140x740.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/crimea-17-1140x740-800x519.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Введите заголовок здесь",
-                "active": false
-              },
-              {
-                "tags": "",
+                "tags": "Земляные работы",
                 "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
                 "playVideo": false,
                 "videoUrl": "",
@@ -1200,7 +1122,7 @@
                 "active": false
               },
               {
-                "tags": "",
+                "tags": "Земляные работы",
                 "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
                 "playVideo": false,
                 "videoUrl": "",
@@ -1213,7 +1135,7 @@
                 "active": false
               },
               {
-                "tags": "",
+                "tags": "Земляные работы",
                 "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
                 "playVideo": false,
                 "videoUrl": "",
@@ -1226,20 +1148,20 @@
                 "active": false
               },
               {
-                "tags": "",
-                "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
-                "playVideo": false,
-                "videoUrl": "",
+                "tags": "Автогран видео",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise202069-132212020-6-4-1-49-2.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=JEQyS0BCH5Y",
                 "image": "@PROJECT_PATH@/assets/images/crimea-8-1140x740.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/crimea-8-1140x740-800x519.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Введите заголовок здесь",
-                "active": false
+                "active": true
               },
               {
-                "tags": "",
+                "tags": "Земляные работы",
                 "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
                 "playVideo": false,
                 "videoUrl": "",
@@ -1252,7 +1174,7 @@
                 "active": false
               },
               {
-                "tags": "",
+                "tags": "Земляные работы",
                 "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
                 "playVideo": false,
                 "videoUrl": "",
@@ -1265,20 +1187,7 @@
                 "active": false
               },
               {
-                "tags": "",
-                "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
-                "playVideo": false,
-                "videoUrl": "",
-                "image": "@PROJECT_PATH@/assets/images/crimea-21-1140x740.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/crimea-21-1140x740-800x519.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Введите заголовок здесь",
-                "active": false
-              },
-              {
-                "tags": "",
+                "tags": "Земляные работы",
                 "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
                 "playVideo": false,
                 "videoUrl": "",
@@ -1291,20 +1200,7 @@
                 "active": false
               },
               {
-                "tags": "",
-                "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
-                "playVideo": false,
-                "videoUrl": "",
-                "image": "@PROJECT_PATH@/assets/images/crimea-22-1140x740.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/crimea-22-1140x740-800x519.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Введите заголовок здесь",
-                "active": false
-              },
-              {
-                "tags": "",
+                "tags": "Земляные работы",
                 "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
                 "playVideo": false,
                 "videoUrl": "",
@@ -1317,7 +1213,7 @@
                 "active": false
               },
               {
-                "tags": "",
+                "tags": "Земляные работы",
                 "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
                 "playVideo": false,
                 "videoUrl": "",
@@ -1327,6 +1223,97 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Введите заголовок здесь",
+                "active": false
+              },
+              {
+                "tags": "Сети и коммуникации",
+                "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
+                "playVideo": false,
+                "videoUrl": "",
+                "image": "@PROJECT_PATH@/assets/images/seti-3-1140x740.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/seti-3-1140x740-800x519.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Прокладка труб и коммуникаций в коттеджном городке GREEN HILLS",
+                "active": false
+              },
+              {
+                "tags": "Сети и коммуникации",
+                "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
+                "playVideo": false,
+                "videoUrl": "",
+                "image": "@PROJECT_PATH@/assets/images/seti-4-1140x740.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/seti-4-1140x740-800x519.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Прокладка коммуникаций в коттеджном городке Green Hills",
+                "active": false
+              },
+              {
+                "tags": "Сети и коммуникации",
+                "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
+                "playVideo": false,
+                "videoUrl": "",
+                "image": "@PROJECT_PATH@/assets/images/seti-5-1140x740.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/seti-5-1140x740-800x519.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Работы по установке системы коммуникаций - Green Hills",
+                "active": false
+              },
+              {
+                "tags": "Сети и коммуникации",
+                "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
+                "playVideo": false,
+                "videoUrl": "",
+                "image": "@PROJECT_PATH@/assets/images/seti-6-1140x740.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/seti-6-1140x740-800x519.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Прокладка труб - Green Hills",
+                "active": false
+              },
+              {
+                "tags": "Сети и коммуникации",
+                "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
+                "playVideo": false,
+                "videoUrl": "",
+                "image": "@PROJECT_PATH@/assets/images/seti-7-1140x740.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/seti-7-1140x740-800x519.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Спецтехника компании Автогран - Green Hills",
+                "active": false
+              },
+              {
+                "tags": "Сети и коммуникации",
+                "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
+                "playVideo": false,
+                "videoUrl": "",
+                "image": "@PROJECT_PATH@/assets/images/seti-10-1140x740.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/seti-10-1140x740-800x519.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Экскаватор-погрузчик CAT 444E - техника ТОВ Автогран",
+                "active": false
+              },
+              {
+                "tags": "Сети и коммуникации",
+                "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
+                "playVideo": false,
+                "videoUrl": "",
+                "image": "@PROJECT_PATH@/assets/images/seti-2-1140x740.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/seti-2-1140x740-800x519.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Прокладка трубопровода - Green Hills",
                 "active": false
               }
             ]
@@ -1428,7 +1415,7 @@
             }
           },
           "_name": "footer2",
-          "_customHTML": "<section group=\"Footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"map\" title=\"Карта\" name=\"googleMap\" place-id=\"iframe\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.689546213894!2d30.527727415547027!3d50.44688309550328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce5376b00001%3A0x21ac61a540c8ff48!2savtogran!5e0!3m2!1sru!2sua!4v1594127500307!5m2!1sru!2sua&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; aria-hidden=&quot;false&quot; tabindex=&quot;0&quot;></iframe>\">\n        <input type=\"checkbox\" title=\"Авторское право\" name=\"showCopyright\" checked>\n        <select title=\"Иконки\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Эффект появления\" name=\"reveal\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/demontazh-staroy-shkoly-ul-khorolskaya-3-1140x740.jpeg\" selected parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#2e2e2e\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row content mbr-white\">\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <p class=\"mbr-text\"></p><p></p><p>\n                    <strong>Адрес</strong>\n                    <br>\n                    <br><a href=\"https://g.page/Avtogran\" target=\"_blank\">Офіс 302,&nbsp; &nbsp; вул.Банкова,2&nbsp;</a><br><a href=\"https://g.page/Avtogran\" target=\"_blank\">Київ&nbsp;&nbsp;&nbsp;&nbsp;01024&nbsp;&nbsp;&nbsp;&nbsp;Україна&nbsp;</a><br>\n                    <br>\n                    <br><strong>Контакты</strong>\n                    <br>\n                    <br>Email:<br><a href=\"mailto:info@avtogran.com.ua\">info@avtogran.com.ua</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>Телефон:<br><a href=\"tel:+380442532352\">+380 44 253 2352</a><br><br><a href=\"tel:+380504441146\">+380 50 444 1146</a><br>(Viber, Telegram, WhatsApp)<br></p><p></p><br><p>Факс:&nbsp;&nbsp;&nbsp;&nbsp;</p><p>+380 44 253 2352</p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <p class=\"mbr-text\">\n                    <strong>Ссылки</strong>\n                    <br>\n                    <br><a href=\"https://avtogran.com.ua/\" target=\"_blank\">Основной сайт</a>&nbsp;<br><br><b>ТОВ Автогран</b>&nbsp;<br>\n                    <br>- демонтаж зданий и сооружений;\n<br>- снос железобетонных конструкций;\n<br>- рытьё котлованов;\n<br>- земляные работы;\n<br>- снятие дорожной подушки;\n<br>- асфальтирование;\n<br>- прокладка сетей и коммуникаций;\n<br>- благоустройство территории;\n<br>- ландшафтный дизайн;\n<br>- перевозка грунта.<br></p>\n            </div>\n            <div class=\"col-12 col-md-6\">\n                <div class=\"google-map\" mbr-map=\"googleMap\"></div>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-sm-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-sm-6 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\">\n                        © Copyright 2020 TOV Avtogran - All Rights Reserved\n                    </p>\n                </div>\n                <div class=\"col-md-6\">\n                    <div class=\"social-list align-right\" mbr-if=\"iconsCount > 0\">\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                            <a href=\"https://m.me/avtogran\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-messenger socicon\" style=\"color: rgb(14, 167, 245); fill: rgb(14, 167, 245);\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            <a href=\"https://facebook.com/avtogran\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\" style=\"color: rgb(20, 156, 242); fill: rgb(20, 156, 242);\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            <a href=\"https://www.youtube.com/channel/UC6aUraBG_MexYpLKbonRchg\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\" style=\"color: rgb(255, 127, 159); fill: rgb(255, 127, 159);\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            <a href=\"whatsapp://send?phone=+380504441146\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-whatsapp socicon\" style=\"color: rgb(17, 245, 58); fill: rgb(17, 245, 58);\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            <a href=\"tg://resolve?domain=Avtogran\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-telegram socicon\" style=\"color: rgb(239, 239, 239); fill: rgb(239, 239, 239);\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"viber://add?number=380504441146\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-viber socicon\" style=\"color: rgb(226, 130, 233); fill: rgb(226, 130, 233);\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"map\" title=\"Карта\" name=\"googleMap\" place-id=\"iframe\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.689546213894!2d30.527727415547027!3d50.44688309550328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce5376b00001%3A0x21ac61a540c8ff48!2savtogran!5e0!3m2!1sru!2sua!4v1594127500307!5m2!1sru!2sua&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; aria-hidden=&quot;false&quot; tabindex=&quot;0&quot;></iframe>\">\n        <input type=\"checkbox\" title=\"Авторское право\" name=\"showCopyright\" checked>\n        <select title=\"Иконки\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Эффект появления\" name=\"reveal\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/demontazh-staroy-shkoly-ul-khorolskaya-3-1140x740.jpeg\" selected parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#2e2e2e\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row content mbr-white\">\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <p class=\"mbr-text\"></p><p></p><p>\n                    <strong>Адрес</strong>\n                    <br>\n                    <br><a href=\"https://g.page/Avtogran\" target=\"_blank\">Офіс 302,&nbsp; &nbsp; вул.Банкова,2&nbsp;</a><br><a href=\"https://g.page/Avtogran\" target=\"_blank\">Київ&nbsp;&nbsp;&nbsp;&nbsp;01024&nbsp;&nbsp;&nbsp;&nbsp;Україна&nbsp;</a><br>\n                    <br>\n                    <br><strong>Контакты</strong>\n                    <br>\n                    <br>Email:<br><a href=\"mailto:info@avtogran.com.ua\">info@avtogran.com.ua</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>Телефон:<br><a href=\"tel:+380442532352\">+380 44 253 2352</a><br><br><a href=\"tel:+380504441146\">+380 50 444 1146</a><br>(Viber, Telegram, WhatsApp)<br></p><p></p><br><p>Факс:&nbsp;&nbsp;&nbsp;&nbsp;</p><p>+380 44 253 2352</p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <p class=\"mbr-text\">\n                    <strong>Ссылки</strong>\n                    <br>\n                    <br><a href=\"https://avtogran.com.ua/\" target=\"_blank\">Основной сайт</a>&nbsp;<br><br><b>ТОВ Автогран</b>&nbsp;<br>\n                    <br>- демонтаж зданий и сооружений;\n<br>- снос железобетонных конструкций;\n<br>- рытьё котлованов;\n<br>- земляные работы;\n<br>- снятие дорожной подушки;\n<br>- асфальтирование;\n<br>- прокладка сетей и коммуникаций;\n<br>- благоустройство территории;\n<br>- ландшафтный дизайн;\n<br>- перевозка грунта.<br></p>\n            </div>\n            <div class=\"col-12 col-md-6\">\n                <div class=\"google-map\" mbr-map=\"googleMap\"></div>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-sm-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-sm-6 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\">\n                        © Copyright 2020 TOV Avtogran - All Rights Reserved\n                    </p>\n                </div>\n                <div class=\"col-md-6\">\n                    <div class=\"social-list align-right\" mbr-if=\"iconsCount > 0\">\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                            <a href=\"https://m.me/avtogran\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-messenger socicon\" style=\"color: rgb(14, 223, 245); fill: rgb(14, 223, 245);\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            <a href=\"https://facebook.com/avtogran\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\" style=\"color: rgb(20, 156, 242); fill: rgb(20, 156, 242);\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            <a href=\"https://www.youtube.com/channel/UC6aUraBG_MexYpLKbonRchg\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\" style=\"color: rgb(255, 127, 159); fill: rgb(255, 127, 159);\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            <a href=\"whatsapp://send?phone=+380504441146\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-whatsapp socicon\" style=\"color: rgb(17, 245, 58); fill: rgb(17, 245, 58);\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            <a href=\"tg://resolve?domain=Avtogran\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-telegram socicon\" style=\"color: rgb(239, 239, 239); fill: rgb(239, 239, 239);\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"viber://add?number=380504441146\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-viber socicon\" style=\"color: rgb(226, 130, 233); fill: rgb(226, 130, 233);\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "s43poZuBv2",
           "_anchor": "footer2-8",
           "_protectedParams": [],
