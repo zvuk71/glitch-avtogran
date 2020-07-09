@@ -95,7 +95,7 @@ body {
   background-color: #b95d07 !important;
 }
 .bg-success {
-  background-color: #bc27ea !important;
+  background-color: #e282e9 !important;
 }
 .bg-info {
   background-color: #82786e !important;
@@ -168,8 +168,8 @@ body {
 }
 .btn-success,
 .btn-success:active {
-  background-color: #bc27ea !important;
-  border-color: #bc27ea !important;
+  background-color: #e282e9 !important;
+  border-color: #e282e9 !important;
   color: #ffffff !important;
 }
 .btn-success:hover,
@@ -177,14 +177,14 @@ body {
 .btn-success.focus,
 .btn-success.active {
   color: #ffffff !important;
-  background-color: #8d11b3 !important;
-  border-color: #8d11b3 !important;
+  background-color: #d341de !important;
+  border-color: #d341de !important;
 }
 .btn-success.disabled,
 .btn-success:disabled {
   color: #ffffff !important;
-  background-color: #8d11b3 !important;
-  border-color: #8d11b3 !important;
+  background-color: #d341de !important;
+  border-color: #d341de !important;
 }
 .btn-warning,
 .btn-warning:active {
@@ -332,22 +332,22 @@ body {
 .btn-success-outline,
 .btn-success-outline:active {
   background: none;
-  border-color: #7b0f9c;
-  color: #7b0f9c;
+  border-color: #ce2bda;
+  color: #ce2bda;
 }
 .btn-success-outline:hover,
 .btn-success-outline:focus,
 .btn-success-outline.focus,
 .btn-success-outline.active {
   color: #ffffff;
-  background-color: #bc27ea;
-  border-color: #bc27ea;
+  background-color: #e282e9;
+  border-color: #e282e9;
 }
 .btn-success-outline.disabled,
 .btn-success-outline:disabled {
   color: #ffffff !important;
-  background-color: #bc27ea !important;
-  border-color: #bc27ea !important;
+  background-color: #e282e9 !important;
+  border-color: #e282e9 !important;
 }
 .btn-warning-outline,
 .btn-warning-outline:active {
@@ -430,7 +430,7 @@ body {
   color: #ff3366 !important;
 }
 .text-success {
-  color: #bc27ea !important;
+  color: #e282e9 !important;
 }
 .text-info {
   color: #82786e !important;
@@ -457,7 +457,7 @@ a.text-secondary:focus {
 }
 a.text-success:hover,
 a.text-success:focus {
-  color: #7b0f9c !important;
+  color: #ce2bda !important;
 }
 a.text-info:hover,
 a.text-info:focus {
@@ -527,7 +527,7 @@ a:hover {
 }
 .mbr-plan-header.bg-success .mbr-plan-subtitle,
 .mbr-plan-header.bg-success .mbr-plan-price-desc {
-  color: #f6e1fc;
+  color: #ffffff;
 }
 .mbr-plan-header.bg-info .mbr-plan-subtitle,
 .mbr-plan-header.bg-info .mbr-plan-price-desc {
@@ -1091,6 +1091,9 @@ section.lazy-placeholder:after {
 .cid-qTkzRZLJNu .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
+.cid-s41LcLK6Gz {
+  background-image: url("../../../assets/images/korosten-8-1140x740.jpg");
+}
 .cid-s41KX5RdU5 {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -1145,6 +1148,43 @@ section.lazy-placeholder:after {
   .cid-s41KX5RdU5 .price-figure {
     font-size: 4.25rem;
   }
+}
+.cid-s4cTOnN2kp {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-s4cTOnN2kp .counter-container {
+  color: #767676;
+}
+.cid-s4cTOnN2kp .counter-container ol {
+  margin-bottom: 0;
+  counter-reset: myCounter;
+}
+.cid-s4cTOnN2kp .counter-container ol li {
+  margin-bottom: 1rem;
+}
+.cid-s4cTOnN2kp .counter-container ol li {
+  list-style: none;
+  padding-left: .5rem;
+  position: relative;
+}
+.cid-s4cTOnN2kp .counter-container ol li:before {
+  position: absolute;
+  left: -56px;
+  margin-top: -10px;
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+  line-height: 40px;
+  transition: all .2s;
+  color: #ffffff;
+  background: #149dcc;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 .cid-s4aenEil2o {
   padding-top: 90px;
