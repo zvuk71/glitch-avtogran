@@ -1,54 +1,49 @@
 {
   "settings": {
-
     "name": "Автогран Киев",
     "currentPage": "index.html",
     "theme": {
-
       "name": "mobirise4",
       "title": "Mobirise 4",
       "styling": {
         "primaryColor": "#b95d07",
-          "secondaryColor": "#ff3366",
-          "successColor": "#e282e9",
-          "infoColor": "#82786E",
-          "warningColor": "#879A9F",
-          "dangerColor": "#2fc41c",
-          "mainFont": "Rubik",
-          "display1Font": "Rubik",
-          "display1Size": 4.25,
-          "display2Font": "Rubik",
-          "display2Size": 3,
-          "display5Font": "Rubik",
-          "display5Size": 1.5,
-          "display7Font": "Rubik",
-          "display7Size": 1,
-          "display4Font": "Rubik",
-          "display4Size": 1,
-          "isRoundedButtons": true,
-          "isAnimatedOnScroll": true,
-          "isScrollToTopButton": true
-      }
-
-      ,
-      "additionalSetColors": [ "#0edff5",
-      "#e282e9",
-      "#000000",
-      "#11f53a",
-      "#149cf2",
-      "#1431f2",
-      "#0ea7f5"
+        "secondaryColor": "#ff3366",
+        "successColor": "#e282e9",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#2fc41c",
+        "mainFont": "Rubik",
+        "display1Font": "Rubik",
+        "display1Size": 4.25,
+        "display2Font": "Rubik",
+        "display2Size": 3,
+        "display5Font": "Rubik",
+        "display5Size": 1.5,
+        "display7Font": "Rubik",
+        "display7Size": 1,
+        "display4Font": "Rubik",
+        "display4Size": 1,
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      },
+      "additionalSetColors": [
+        "#160202",
+        "#0edff5",
+        "#e282e9",
+        "#000000",
+        "#11f53a",
+        "#149cf2",
+        "#1431f2"
       ]
-    }
-
-    ,
+    },
     "path": "@PROJECT_PATH@",
-    "siteFonts": [ {
-      "css": "'Rubik', sans-serif",
+    "siteFonts": [
+      {
+        "css": "'Rubik', sans-serif",
         "name": "Rubik",
         "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
-    }
-
+      }
     ],
     "versionFirst": "4.7.6",
     "uniqCompNum": 12,
@@ -61,197 +56,151 @@
     "siteUrl": "https://kotlovany.avtogran.com.ua",
     "cookiesAlert": {
       "customDialogSelector": false,
-        "colorText": "#424a4d",
-        "colorBg": "#eaeff1",
-        "colorButton": "#e282e9",
-        "colorLink": "#424a4d",
-        "underlineLink": true,
-        "opacity": "99",
-        "opacityOverlay": "80",
-        "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
-        "textButton": "Agree"
-    }
-
-    ,
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "#e282e9",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "opacityOverlay": "80",
+      "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+      "textButton": "Agree"
+    },
     "gdpr": false,
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n"
-  }
-
-  ,
+  },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-          "title": "Главная",
-          "meta_descr": "Сайт Автогран amp - демонтаж зданий в Киеве, котлованы, заказать экскаватор, цены на аренду техники, гидромолот, асфальтирование, благоустройство, прокладка сетей и коммуникаций, дробление бетона и щебня",
-          "header_custom": "Контакты компании ТОВ Автогран в мессенджерах",
-          "footer_custom": "Описание Автогран и карта - как добраться в главный офис",
-          "html_before": ""
-      }
-
-      ,
-      "components": [ {
-        "_styles": {
-          ".navbar": {
-            "padding": ".5rem 0",
+        "title": "Главная",
+        "meta_descr": "Сайт Автогран amp - демонтаж зданий в Киеве, котлованы, заказать экскаватор, цены на аренду техники, гидромолот, асфальтирование, благоустройство, прокладка сетей и коммуникаций, дробление бетона и щебня",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".navbar": {
+              "padding": ".5rem 0",
               "background": "@menuBgColor",
               "transition": "none",
               "min-height": "77px"
-          }
-
-          ,
-          ".navbar-dropdown.bg-color.transparent.opened": {
-            "background": "@menuBgColor"
-          }
-
-          ,
-          "a": {
-            "font-style": "normal"
-          }
-
-          ,
-          ".nav-item": {
-            "& span": {
-              "padding-right": "0.4em",
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
                 "line-height": "0.5em",
                 "vertical-align": "text-bottom",
                 "position": "relative",
                 "text-decoration": "none"
-            }
-
-            ,
-            "& a": {
-              "display": "flex",
+              },
+              "& a": {
+                "display": "flex",
                 "align-items": "center",
                 "justify-content": "center",
                 "padding": "0.7rem 0 !important",
                 "margin": "0rem .65rem !important"
-            }
-          }
-
-          ,
-          ".nav-item:focus, .nav-link:focus": {
-            "outline": "none"
-          }
-
-          ,
-          ".btn": {
-
-            "padding": "0.4rem 1.5rem",
-            ".mbr-iconfont": {
-              "font-size": "1.6rem"
-            }
-
-            ,
-            "display": "inline-flex",
-            "align-items": "center"
-          }
-
-          ,
-          ".menu-logo": {
-
-            "margin-right": "auto",
-            ".navbar-brand": {
-
-              "display": "flex",
-              "margin-left": "5rem",
-              "padding": "0",
-              "transition": "padding .2s",
-              "min-height": "3.8rem",
-              "align-items": "center",
-              ".navbar-caption-wrap": {
-
-                "display": "-webkit-flex",
-                "-webkit-align-items": "center",
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".btn": {
+              "padding": "0.4rem 1.5rem",
+              ".mbr-iconfont": {
+                "font-size": "1.6rem"
+              },
+              "display": "inline-flex",
+              "align-items": "center"
+            },
+            ".menu-logo": {
+              "margin-right": "auto",
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "5rem",
+                "padding": "0",
+                "transition": "padding .2s",
+                "min-height": "3.8rem",
                 "align-items": "center",
-                "word-break": "break-word",
-                "min-width": "7rem",
-                "margin": ".3rem 0",
-                ".navbar-caption": {
-                  "line-height": "1.2rem !important",
+                ".navbar-caption-wrap": {
+                  "display": "-webkit-flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": ".3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
                     "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  }
                 }
               }
-
-              ,
-              ".navbar-logo": {
-
-                "font-size": "4rem",
-                "transition": "font-size 0.25s",
-                "& img": {
-                  "display": "flex"
-                }
-
-                ,
-                ".mbr-iconfont": {
-                  "transition": "font-size 0.25s"
-                }
-              }
-            }
-          }
-
-          ,
-          ".navbar-toggleable-sm .navbar-collapse": {
-
-            "justify-content": "flex-end",
-            "-webkit-justify-content": "flex-end",
-            "padding-right": "5rem",
-            "width": "auto",
-            ".navbar-nav": {
-
-              "flex-wrap": "wrap",
-              "-webkit-flex-wrap": "wrap",
-              "padding-left": "0",
-              ".nav-item": {
-                "-webkit-align-self": "center",
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "flex-end",
+              "-webkit-justify-content": "flex-end",
+              "padding-right": "5rem",
+              "width": "auto",
+              ".navbar-nav": {
+                "flex-wrap": "wrap",
+                "-webkit-flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
                   "align-self": "center"
-              }
-            }
-
-            ,
-            ".navbar-buttons": {
-              "padding-left": "0",
-                "padding-bottom": "0"
-            }
-          }
-
-          ,
-          ".dropdown": {
-            ".dropdown-menu": {
-
-              "background": "@menuBgColor",
-              "display": "none",
-              "position": "absolute",
-              "min-width": "5rem",
-              "padding-top": "1.4rem",
-              "padding-bottom": "1.4rem",
-              "text-align": "left",
-              ".dropdown-item": {
-
-                "width": "auto",
-                "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
-                "&::after": {
-                  "right": "0.5rem"
                 }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
               }
-
-              ,
-              ".dropdown-submenu": {
-                "margin": "0"
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "display": "none",
+                "position": "absolute",
+                "min-width": "5rem",
+                "padding-top": "1.4rem",
+                "padding-bottom": "1.4rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
+                  "&::after": {
+                    "right": "0.5rem"
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "display": "block"
               }
-            }
-
-            ,
-            "&.open > .dropdown-menu": {
-              "display": "block"
-            }
-          }
-
-          ,
-          ".navbar-toggleable-sm": {
-            "&.opened:after": {
-              "position": "absolute",
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
                 "width": "100vw",
                 "height": "100vh",
                 "content": "''",
@@ -261,186 +210,135 @@
                 "transform": "translateY(100%)",
                 "-webkit-transform": "translateY(100%)",
                 "z-index": "1000"
-            }
-          }
-
-          ,
-          ".navbar.navbar-short": {
-
-            "min-height": "60px",
-            "transition": "all .2s",
-            "& .navbar-toggler-right": {
-              "top": "20px"
-            }
-
-            ,
-            "& .navbar-logo a": {
-
-              "font-size": "2.5rem !important",
-              "line-height": "2.5rem",
-              "transition": "font-size 0.25s",
-              "& .mbr-iconfont": {
-                "font-size": "2.5rem !important"
               }
-
-              ,
-              "& img": {
-                "height": "3rem !important"
+            },
+            ".navbar.navbar-short": {
+              "min-height": "60px",
+              "transition": "all .2s",
+              "& .navbar-toggler-right": {
+                "top": "20px"
+              },
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
               }
-            }
-
-            ,
-            "& .navbar-brand": {
-              "min-height": "3rem"
-            }
-          }
-
-          ,
-          "button.navbar-toggler": {
-
-            "width": "31px",
-            "height": "18px",
-            "cursor": "pointer",
-            "transition": "all .2s",
-            "top": "1.5rem",
-            "right": "1rem",
-            "&:focus": {
-              "outline": "none"
-            }
-
-            ,
-            ".hamburger span": {
-
-              "position": "absolute",
-              "right": "0",
-              "width": "30px",
-              "height": "2px",
-              "border-right": "5px",
-              "background-color": "@hamburgerColor",
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "top": "1.5rem",
+              "right": "1rem",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
               "&:nth-child(1)": {
-                "top": "0",
-                  "transition": "all .2s"
-              }
-
-              ,
-              "&:nth-child(2)": {
                 "top": "8px",
-                  "transition": "all .15s"
-              }
-
-              ,
-              "&:nth-child(3)": {
-                "top": "8px",
-                  "transition": "all .15s"
-              }
-
-              ,
-              "&:nth-child(4)": {
-                "top": "16px",
-                  "transition": "all .2s"
-              }
-            }
-          }
-
-          ,
-          "nav.opened .hamburger span": {
-            "&:nth-child(1)": {
-              "top": "8px",
                 "width": "0",
                 "opacity": "0",
                 "right": "50%",
                 "transition": "all .2s"
-            }
-
-            ,
-            "&:nth-child(2)": {
-              "-webkit-transform": "rotate(45deg)",
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
                 "transform": "rotate(45deg)",
                 "transition": "all .25s"
-            }
-
-            ,
-            "&:nth-child(3)": {
-              "-webkit-transform": "rotate(-45deg)",
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
                 "transform": "rotate(-45deg)",
                 "transition": "all .25s"
-            }
-
-            ,
-            "&:nth-child(4)": {
-              "top": "8px",
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
                 "width": "0",
                 "opacity": "0",
                 "right": "50%",
                 "transition": "all .2s"
-            }
-          }
-
-          ,
-          ".collapsed": {
-            "&.navbar-expand": {
-              "flex-direction": "column"
-            }
-
-            ,
-            ".btn": {
-              "display": "flex"
-            }
-
-            ,
-            ".navbar-collapse": {
-
-              "display": "none !important",
-              "padding-right": "0 !important",
-              "&.collapsing,&.show": {
-
-                "display": "block !important",
-                ".navbar-nav": {
-
-                  "display": "block",
-                  "text-align": "center",
-                  ".nav-item": {
-
-                    "clear": "both",
-                    "& when (@showButtons = false)": {
-                      "&:last-child": {
-                        "margin-bottom": "1rem"
+              }
+            },
+            ".collapsed": {
+              "&.navbar-expand": {
+                "flex-direction": "column"
+              },
+              ".btn": {
+                "display": "flex"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
                       }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
                     }
                   }
                 }
-
-                ,
-                ".navbar-buttons": {
-
-                  "text-align": "center",
-                  "&:last-child": {
-                    "margin-bottom": "1rem"
-                  }
-                }
-              }
-            }
-
-            ,
-            "button.navbar-toggler": {
-              "display": "block"
-            }
-
-            ,
-            ".navbar-brand": {
-              "margin-left": "1rem !important"
-            }
-
-            ,
-            ".navbar-toggleable-sm": {
-              "flex-direction": "column",
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
                 "-webkit-flex-direction": "column"
-            }
-
-            ,
-            ".dropdown": {
-              ".dropdown-menu": {
-                "width": "100%",
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
                   "text-align": "center",
                   "position": "relative",
                   "opacity": "0",
@@ -450,27 +348,21 @@
                   "padding": "0",
                   "transition-duration": ".5s",
                   "transition-property": "opacity,padding,height"
-              }
-
-              ,
-              "&.open > .dropdown-menu": {
-                "position": "relative",
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
                   "opacity": "1",
                   "height": "auto",
                   "padding": "1.4rem 0",
                   "visibility": "visible"
-              }
-
-              ,
-              ".dropdown-submenu": {
-                "left": "0",
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
                   "text-align": "center",
                   "width": "100%"
-              }
-
-              ,
-              ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
-                "margin-top": "0",
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
                   "position": "inherit",
                   "right": "0",
                   "top": "50%",
@@ -483,80 +375,57 @@
                   "border-top": ".30em solid",
                   "border-right": ".30em solid transparent",
                   "border-left": ".30em solid transparent"
+                }
               }
-            }
-          }
-
-          ,
-          "@media (max-width: 991px)": {
-            ".navbar-expand": {
-              "flex-direction": "column"
-            }
-
-            ,
-            "img": {
-              "height": "3.8rem !important"
-            }
-
-            ,
-            ".btn": {
-              "display": "flex"
-            }
-
-            ,
-            "button.navbar-toggler": {
-              "display": "block"
-            }
-
-            ,
-            ".navbar-brand": {
-              "margin-left": "1rem !important"
-            }
-
-            ,
-            ".navbar-toggleable-sm": {
-              "flex-direction": "column",
+            },
+            "@media (max-width: 991px)": {
+              ".navbar-expand": {
+                "flex-direction": "column"
+              },
+              "img": {
+                "height": "3.8rem !important"
+              },
+              ".btn": {
+                "display": "flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
                 "-webkit-flex-direction": "column"
-            }
-
-            ,
-            ".navbar-collapse": {
-
-              "display": "none !important",
-              "padding-right": "0 !important",
-              "&.collapsing,&.show": {
-
-                "display": "block !important",
-                ".navbar-nav": {
-
-                  "display": "block",
-                  "text-align": "center",
-                  ".nav-item": {
-
-                    "clear": "both",
-                    "& when (@showButtons = false)": {
-                      "&:last-child": {
-                        "margin-bottom": "1rem"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
                       }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
                     }
                   }
                 }
-
-                ,
-                ".navbar-buttons": {
-
-                  "text-align": "center",
-                  "&:last-child": {
-                    "margin-bottom": "1rem"
-                  }
-                }
-              }
-            }
-
-            ,
-            ".dropdown": {
-              ".dropdown-menu": {
-                "width": "100%",
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
                   "text-align": "center",
                   "position": "relative",
                   "opacity": "0",
@@ -566,27 +435,21 @@
                   "padding": "0",
                   "transition-duration": ".5s",
                   "transition-property": "opacity,padding,height"
-              }
-
-              ,
-              "&.open > .dropdown-menu": {
-                "position": "relative",
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
                   "opacity": "1",
                   "height": "auto",
                   "padding": "1.4rem 0",
                   "visibility": "visible"
-              }
-
-              ,
-              ".dropdown-submenu": {
-                "left": "0",
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
                   "text-align": "center",
                   "width": "100%"
-              }
-
-              ,
-              ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
-                "margin-top": "0",
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
                   "position": "inherit",
                   "right": "0",
                   "top": "50%",
@@ -599,448 +462,250 @@
                   "border-top": ".30em solid",
                   "border-right": ".30em solid transparent",
                   "border-left": ".30em solid transparent"
+                }
               }
+            },
+            "@media (min-width: 767px)": {
+              ".menu-logo": {
+                "flex-shrink": "0"
+              }
+            },
+            ".navbar-collapse": {
+              "flex-basis": "auto"
+            },
+            ".nav-link:hover, .dropdown-item:hover": {
+              "color": "@itemsHoverColor !important"
             }
-          }
-
-          ,
-          "@media (min-width: 767px)": {
-            ".menu-logo": {
-              "flex-shrink": "0"
-            }
-          }
-
-          ,
-          ".navbar-collapse": {
-            "flex-basis": "auto"
-          }
-
-          ,
-          ".nav-link:hover, .dropdown-item:hover": {
-            "color": "@itemsHoverColor !important"
-          }
-        }
-
-        ,
-        "_name": "menu1",
-        "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"4.3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#55b4d4\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                         <img src=\"@PROJECT_PATH@/assets/images/avtogran-logosite-2-135x40.png\" alt=\"Логотип компании Автогран Киев\" mbr-style=\"{'height': logoSize + 'rem'}\" title=\"Логотип компании Автогран Киев\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://avtogran.com.ua/" data-app-placeholder=\"Введите Текст\"></a><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://avtogran.com.ua/" data-app-placeholder=\"Введите Текст\" style=\"background-color: rgb(51, 51, 51); display: inline !important;\"><font color=\"#ff3366\" face=\"MobiriseIcons\"><span style=\"font-size: 25.6px; font-weight: normal;\">&nbsp;</span></font></a><font color=\"#ff3366\" face=\"MobiriseIcons\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://avtogran.com.ua/" data-app-placeholder=\"Введите Текст\" style=\"background-color: rgb(51, 51, 51); display: inline !important;\"></a></font></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown open\"><a class=\"nav-link link dropdown-toggle text-white\" href=\"https://avtogran.com.ua/" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\"><span class=\"mbrib-delivery mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 45px;\"></span>Услуги и цены</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-white\" href=\"https://avtogran.com.ua/" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">Демонтаж зданий</a><a class=\"dropdown-item text-white\" href=\"https://avtogran.com.ua/" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">Котлованы<br></a><a class=\"dropdown-item text-white\" href=\"https://avtogran.com.ua/" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">Асфальтирование</a><a class=\"dropdown-item text-white\" href=\"https://avtogran.com.ua/" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">Прокладка сетей</a><a class=\"dropdown-item text-white\" href=\"https://avtogran.com.ua/" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">Земляные работы</a><a class=\"dropdown-item text-white\" href=\"https://avtogran.com.ua/" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">Благоустройство</a><a class=\"dropdown-item text-white\" href=\"https://avtogran.com.ua/" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">Перевозка грунта</a><a class=\"dropdown-item text-white\" href=\"https://avtogran.com.ua/" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">Аренда техники</a><a class=\"dropdown-item text-white\" href=\"https://avtogran.com.ua/" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">Ландшафтный дизайн</a></div></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary\" href=\"tel:+380675070210\" data-app-placeholder=\"Введите Текст\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-phone mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-sm btn-danger\" href=\"whatsapp://send?phone=+380675070210\" data-app-placeholder=\"Введите Текст\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span></a>  <a class=\"btn btn-sm btn-success\" href=\"viber://add?number=380675070210\" data-app-placeholder=\"Введите Текст\" target=\"_blank\"><span class=\"socicon socicon-viber mbr-iconfont mbr-iconfont-btn\"></span></a>  <a class=\"btn btn-sm btn-info\" href=\"https://m.me/avtogran\" data-app-placeholder=\"Введите Текст\" target=\"_blank\"><span class=\"socicon socicon-messenger mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(14, 167, 245);\"></span>&nbsp;</a> <a class=\"btn btn-sm btn-info\" href=\"viber://add?number=380675070210\" data-app-placeholder=\"Введите Текст\" target=\"_blank\"><span class=\"socicon socicon-telegram mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n        </div>\n    </nav>\n</section>",
-        "_cid": "qTkzRZLJNu",
-        "_anchor": "menu1-0",
-        "_protectedParams": [],
-        "_global": true,
-        "_once": "menu",
-        "_params": {}
-      }
-
-      ,
+          },
+          "_name": "menu1",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#55b4d4\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://kotlovany-demontazh-kiev-avtogran.com\">\n                         <img src=\"@PROJECT_PATH@/assets/images/avtogran-logo-mini-192x192.png\" alt=\"Логотип компании Автогран Киев\" mbr-style=\"{'height': logoSize + 'rem'}\" title=\"Логотип компании Автогран Киев\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Введите Текст\"></a><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Введите Текст\" style=\"background-color: rgb(51, 51, 51); display: inline !important;\"><font color=\"#ff3366\" face=\"MobiriseIcons\"><span style=\"font-size: 25.6px; font-weight: normal;\">&nbsp;</span></font></a><font color=\"#ff3366\" face=\"MobiriseIcons\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Введите Текст\" style=\"background-color: rgb(51, 51, 51); display: inline !important;\"></a></font></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown\"><a class=\"nav-link link dropdown-toggle text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\"><span class=\"mbrib-delivery mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 45px;\"></span>Услуги и цены</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">Демонтаж зданий</a><a class=\"dropdown-item text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">Котлованы<br></a><a class=\"dropdown-item text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">Асфальтирование</a><a class=\"dropdown-item text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">Прокладка сетей</a><a class=\"dropdown-item text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">Земляные работы</a><a class=\"dropdown-item text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">Благоустройство</a><a class=\"dropdown-item text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">Перевозка грунта</a><a class=\"dropdown-item text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">Аренда техники</a><a class=\"dropdown-item text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">Ландшафтный дизайн</a></div></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary\" href=\"tel:+380675070210\" data-app-placeholder=\"Введите Текст\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-phone mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-sm btn-danger\" href=\"whatsapp://send?phone=+380675070210\" data-app-placeholder=\"Введите Текст\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span></a>  <a class=\"btn btn-sm btn-success\" href=\"viber://add?number=380675070210\" data-app-placeholder=\"Введите Текст\" target=\"_blank\"><span class=\"socicon socicon-viber mbr-iconfont mbr-iconfont-btn\"></span></a>  <a class=\"btn btn-sm btn-info\" href=\"https://m.me/avtogran\" data-app-placeholder=\"Введите Текст\" target=\"_blank\"><span class=\"socicon socicon-messenger mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(14, 167, 245);\"></span>&nbsp;</a> <a class=\"btn btn-sm btn-info\" href=\"viber://add?number=380675070210\" data-app-placeholder=\"Введите Текст\" target=\"_blank\"><span class=\"socicon socicon-telegram mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "qTkzRZLJNu",
+          "_anchor": "menu1-0",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
         {
-
-        "alias": false,
-        "_styles": {
-          "& when not (@fullScreen)": {
-            "padding-top": "(@paddingTop * 15px)",
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
               "padding-bottom": "(@paddingBottom * 15px)"
-          }
-
-          ,
-          "& when (@bg-type = 'color')": {
-            "background-color": "@bg-value"
-          }
-
-          ,
-          "& when (@bg-type = 'image')": {
-            "background-image": "url(@bg-value)"
-          }
-        }
-
-        ,
-        "_name": "header6",
-        "_customHTML": "<section class=\"header6\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Стрелка\" name=\"showArrow\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/korosten-8-1140x740.jpg\" parallax selected>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#767676\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"https://www.youtube.com/watch?v=GFp9ZajlAOU\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Демонтаж зданий<br>Аренда спецтехники<br>Котлованы в Киеве</h1>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Заказать экскаватор с гидромолотом, узнать цены на котлованы в Киеве.<br><br> Арендовать спецтехнику - погрузчики, самосвалы, экскаваторы, катки.<br><br>Снятие и укладка асфальта, дробление бетона и щебня, земляные работы&nbsp;</p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://avtogran.com.ua/\" data-app-placeholder=\"Введите Текст\" target=\"_blank\"><span class=\"mbri-sites mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(249, 242, 149);\"></span>Основной сайт</a>\n                        <a class=\"btn btn-md btn-white-outline\" href=\"https://www.youtube.com/channel/UC6aUraBG_MexYpLKbonRchg\" data-app-placeholder=\"Введите Текст\" target=\"_blank\">YouTube канал</a></div>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
-        "_cid": "s41LcLK6Gz",
-        "_anchor": "header6-4",
-        "_protectedParams": [],
-        "_global": false,
-        "_once": false,
-        "_params": {}
-      }
-
-      ,
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            }
+          },
+          "_name": "header6",
+          "_customHTML": "<section class=\"header6\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Стрелка\" name=\"showArrow\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/korosten-8-1140x740.jpg\" parallax selected>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#767676\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"https://www.youtube.com/watch?v=GFp9ZajlAOU\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Демонтаж зданий<br>Аренда спецтехники<br>Котлованы в Киеве</h1>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Заказать экскаватор с гидромолотом, узнать цены на котлованы в Киеве.<br><br> Арендовать спецтехнику - погрузчики, самосвалы, экскаваторы, катки.<br><br>Снятие и укладка асфальта, дробление бетона и щебня, земляные работы&nbsp;</p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://avtogran.com.ua/\" data-app-placeholder=\"Введите Текст\" target=\"_blank\"><span class=\"mbri-sites mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(249, 242, 149);\"></span>Основной сайт</a>\n                        <a class=\"btn btn-md btn-white-outline\" href=\"https://www.youtube.com/channel/UC6aUraBG_MexYpLKbonRchg\" data-app-placeholder=\"Введите Текст\" target=\"_blank\">YouTube канал</a></div>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_cid": "s41LcLK6Gz",
+          "_anchor": "header6-4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
         {
-
-        "alias": false,
-        "_styles": {
-
-          "padding-top": "(@paddingTop * 15px)",
-          "padding-bottom": "(@paddingBottom * 15px)",
-          "& when (@bg-type = 'color')": {
-            "background": "linear-gradient(45deg, @bg-value, @color2)"
-          }
-
-          ,
-          "& when (@bg-type = 'image')": {
-            "background-image": "url(@bg-value)"
-          }
-
-          ,
-          ".list-group-item": {
-            "padding": ".75rem 3.25rem"
-          }
-
-          ,
-          ".plan": {
-
-            "word-break": "break-word",
-            "position": "relative",
-            "max-width": "300px",
-            "padding-right": "0",
-            "padding-left": "0",
-            "color": "#767676",
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background": "linear-gradient(45deg, @bg-value, @color2)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
             ".list-group-item": {
-
+              "padding": ".75rem 3.25rem"
+            },
+            ".plan": {
+              "word-break": "break-word",
               "position": "relative",
-              "-webkit-justify-content": "center",
-              "justify-content": "center",
-              "border": "0",
-              "&::after": {
-                "position": "absolute",
+              "max-width": "300px",
+              "padding-right": "0",
+              "padding-left": "0",
+              "color": "#767676",
+              ".list-group-item": {
+                "position": "relative",
+                "-webkit-justify-content": "center",
+                "justify-content": "center",
+                "border": "0",
+                "&::after": {
+                  "position": "absolute",
                   "bottom": "0",
                   "left": "20%",
                   "width": "60%",
                   "height": "2px",
                   "content": "\"\"",
                   "background-color": "#eaeaea"
+                },
+                "&:last-child::after": {
+                  "display": "none"
+                }
               }
-
-              ,
-              "&:last-child::after": {
-                "display": "none"
-              }
-            }
-          }
-
-          ,
-          ".plan-header": {
-            "padding-left": "1rem",
+            },
+            ".plan-header": {
+              "padding-left": "1rem",
               "padding-right": "1rem"
-          }
-
-          ,
-          ".plan-header, .plan-body": {
-            "background-color": "#fff"
-          }
-
-          ,
-          ".price-figure": {
-            "font-weight": "700",
-              "color": "#232323"
-          }
-
-          ,
-          ".price-value": {
-            "font-weight": "700",
-              "vertical-align": "top"
-          }
-
-          ,
-          "@media (max-width: 550px)": {
+            },
+            ".plan-header, .plan-body": {
+              "background-color": "#fff"
+            },
             ".price-figure": {
-              "font-size": "4.25rem"
-            }
-          }
-        }
-
-        ,
-        "_name": "pricing-tables1",
-        "_customHTML": "<section group=\"Pricing Tables\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" class=\"pricing-table1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline type=\"range\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input inline type=\"range\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\" checked>\n        <select title=\"Пункты\" name=\"itemsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Цвет фона\" value=\"#0f7699\" selected>\n            <input type=\"video\" title=\"Фоновое видео\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"color\" title=\"Цвет 2\" name=\"color2\" value=\"#cc2952\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n            <div class=\"plan col-12 mx-2 my-2 justify-content-center\" mbr-if=\"itemsCount > 0\" mbr-class=\"{\n                 'col-lg-4': itemsCount == 3,\n                 'col-lg-6': itemsCount == 2,\n                 'col-lg-3': itemsCount == 4}\">\n                <div class=\"plan-header text-center pt-5\">\n                    <h3 class=\"plan-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-title\">\n                        Standard\n                    </h3>\n                    <div class=\"plan-price\">\n                        <span mbr-text class=\"price-value mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price-value\">\n                            $\n                        </span>\n                        <span mbr-text class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".price-figure\">\n                              35</span>\n                        <small mbr-text class=\"price-term mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".price-term\">\n                            в месяц\n                        </small>\n                    </div>\n                </div>\n                <div class=\"plan-body pb-5\">\n                    <div class=\"plan-list align-center\">\n                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                            <li class=\"list-group-item\">\n                                Mobirise идеально подходит тем, кто не знаком с понятием веб-разработки\n                            </li>\n                            <li class=\"list-group-item\">\n                                5 Gb трафик\n                            </li>\n                        </ul>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center pt-4 \" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                        <a href=\"https://mobirise.co\" class=\"btn btn-primary\">КУПИТЬ СЕЙЧАС</a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"plan col-12 mx-2 my-2 justify-content-center\" mbr-if=\"itemsCount > 1\" mbr-class=\"{\n                 'col-lg-4': itemsCount == 3,\n                 'col-lg-6': itemsCount == 2,\n                 'col-lg-3': itemsCount == 4}\">\n                <div class=\"plan-header text-center pt-5\">\n                    <h3 class=\"plan-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-title\">\n                        Бизнес\n                    </h3>\n                    <div class=\"plan-price\">\n                        <span mbr-text class=\"price-value mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price-value\">\n                            $\n                        </span>\n                        <span mbr-text class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".price-figure\">\n                            65</span>\n                        <small mbr-text class=\"price-term mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".price-term\">\n                            в день\n                        </small>\n                    </div>\n                </div>\n                <div class=\"plan-body pb-5\">\n                    <div class=\"plan-list align-center\">\n                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                            <li class=\"list-group-item\">\n                                Mobirise идеально подходит тем, кто не знаком с понятием веб-разработки\n                            </li>\n                            <li class=\"list-group-item\">\n                                10 Gb трафик\n                            </li>\n                        </ul>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center pt-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                        <a href=\"https://mobirise.co\" class=\"btn btn-primary\">КУПИТЬ СЕЙЧАС</a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"plan col-12 mx-2 my-2 justify-content-center\" mbr-if=\"itemsCount > 2\" mbr-class=\"{\n                 'col-lg-4': itemsCount == 3,\n                 'col-lg-6': itemsCount == 2,\n                 'col-lg-3': itemsCount == 4}\">\n                <div class=\"plan-header text-center pt-5\">\n                    <h3 class=\"plan-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-title\">\n                        Премиум\n                    </h3>\n                    <div class=\"plan-price\">\n                        <span mbr-text class=\"price-value mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price-value\">\n                            $\n                        </span>\n                        <span mbr-text class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".price-figure\">\n                            90</span>\n                        <small mbr-text class=\"price-term mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".price-term\">\n                            в год\n                        </small>\n                    </div>\n                </div>\n                <div class=\"plan-body pb-5\">\n                    <div class=\"plan-list align-center\">\n                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                            <li class=\"list-group-item\">\n                                Mobirise идеально подходит тем, кто не знаком с понятием веб-разработки\n                            </li>\n                            <li class=\"list-group-item\">\n                                15 GB трафик\n                            </li>\n                        </ul>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center pt-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                        <a href=\"https://mobirise.co\" class=\"btn btn-primary\">КУПИТЬ СЕЙЧАС</a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"plan col-12 mx-2 my-2 justify-content-center\" mbr-if=\"itemsCount > 3\" mbr-class=\"{\n                 'col-lg-4': itemsCount == 3,\n                 'col-lg-6': itemsCount == 2,\n                 'col-lg-3': itemsCount == 4}\">\n                <div class=\"plan-header text-center pt-5\">\n                    <h3 class=\"plan-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-title\">\n                        Максимальный\n                    </h3>\n                    <div class=\"plan-price\">\n                        <span mbr-text class=\"price-value mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price-value\">\n                            $\n                        </span>\n                        <span mbr-text class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".price-figure\">\n                            150</span>\n                        <small mbr-text class=\"price-term mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".price-term\">\n                            в год\n                        </small>\n                    </div>\n                </div>\n                <div class=\"plan-body pb-5\">\n                    <div class=\"plan-list align-center\">\n                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                            <li class=\"list-group-item\">\n                                Mobirise идеально подходит тем, кто не знаком с понятием веб-разработки\n                            </li>\n                            <li class=\"list-group-item\">\n                                20 GB трафик\n                            </li>\n                        </ul>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center pt-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                        <a href=\"https://mobirise.co\" class=\"btn btn-primary\">КУПИТЬ СЕЙЧАС</a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-        "_cid": "s41KX5RdU5",
-        "_anchor": "pricing-tables1-3",
-        "_protectedParams": [],
-        "_global": false,
-        "_once": false,
-        "_params": {}
-      }
-
-      ,
-        {
-
-        "alias": false,
-        "_styles": {
-
-          "padding-top": "(@paddingTop * 15px)",
-          "padding-bottom": "(@paddingBottom * 15px)",
-          "background-color": "@bgColor",
-          ".counter-container": {
-
-            "color": "#767676",
-            "ol": {
-
-              "margin-bottom": "0",
-              "li": {
-                "margin-bottom": "1rem"
+              "font-weight": "700",
+              "color": "#232323"
+            },
+            ".price-value": {
+              "font-weight": "700",
+              "vertical-align": "top"
+            },
+            "@media (max-width: 550px)": {
+              ".price-figure": {
+                "font-size": "4.25rem"
               }
-
-              ,
-              "& when (@stylizedCounters)": {
-
-                "counter-reset": "myCounter",
+            }
+          },
+          "_name": "pricing-tables1",
+          "_customHTML": "<section group=\"Pricing Tables\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" class=\"pricing-table1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline type=\"range\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input inline type=\"range\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\" checked>\n        <select title=\"Пункты\" name=\"itemsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Цвет фона\" value=\"#0f7699\" selected>\n            <input type=\"video\" title=\"Фоновое видео\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"color\" title=\"Цвет 2\" name=\"color2\" value=\"#cc2952\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n            <div class=\"plan col-12 mx-2 my-2 justify-content-center\" mbr-if=\"itemsCount > 0\" mbr-class=\"{\n                 'col-lg-4': itemsCount == 3,\n                 'col-lg-6': itemsCount == 2,\n                 'col-lg-3': itemsCount == 4}\">\n                <div class=\"plan-header text-center pt-5\">\n                    <h3 class=\"plan-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-title\">\n                        Standard\n                    </h3>\n                    <div class=\"plan-price\">\n                        <span mbr-text class=\"price-value mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price-value\">\n                            $\n                        </span>\n                        <span mbr-text class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".price-figure\">\n                              35</span>\n                        <small mbr-text class=\"price-term mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".price-term\">\n                            в месяц\n                        </small>\n                    </div>\n                </div>\n                <div class=\"plan-body pb-5\">\n                    <div class=\"plan-list align-center\">\n                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                            <li class=\"list-group-item\">\n                                Mobirise идеально подходит тем, кто не знаком с понятием веб-разработки\n                            </li>\n                            <li class=\"list-group-item\">\n                                5 Gb трафик\n                            </li>\n                        </ul>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center pt-4 \" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                        <a href=\"https://mobirise.co\" class=\"btn btn-primary\">КУПИТЬ СЕЙЧАС</a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"plan col-12 mx-2 my-2 justify-content-center\" mbr-if=\"itemsCount > 1\" mbr-class=\"{\n                 'col-lg-4': itemsCount == 3,\n                 'col-lg-6': itemsCount == 2,\n                 'col-lg-3': itemsCount == 4}\">\n                <div class=\"plan-header text-center pt-5\">\n                    <h3 class=\"plan-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-title\">\n                        Бизнес\n                    </h3>\n                    <div class=\"plan-price\">\n                        <span mbr-text class=\"price-value mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price-value\">\n                            $\n                        </span>\n                        <span mbr-text class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".price-figure\">\n                            65</span>\n                        <small mbr-text class=\"price-term mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".price-term\">\n                            в день\n                        </small>\n                    </div>\n                </div>\n                <div class=\"plan-body pb-5\">\n                    <div class=\"plan-list align-center\">\n                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                            <li class=\"list-group-item\">\n                                Mobirise идеально подходит тем, кто не знаком с понятием веб-разработки\n                            </li>\n                            <li class=\"list-group-item\">\n                                10 Gb трафик\n                            </li>\n                        </ul>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center pt-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                        <a href=\"https://mobirise.co\" class=\"btn btn-primary\">КУПИТЬ СЕЙЧАС</a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"plan col-12 mx-2 my-2 justify-content-center\" mbr-if=\"itemsCount > 2\" mbr-class=\"{\n                 'col-lg-4': itemsCount == 3,\n                 'col-lg-6': itemsCount == 2,\n                 'col-lg-3': itemsCount == 4}\">\n                <div class=\"plan-header text-center pt-5\">\n                    <h3 class=\"plan-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-title\">\n                        Премиум\n                    </h3>\n                    <div class=\"plan-price\">\n                        <span mbr-text class=\"price-value mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price-value\">\n                            $\n                        </span>\n                        <span mbr-text class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".price-figure\">\n                            90</span>\n                        <small mbr-text class=\"price-term mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".price-term\">\n                            в год\n                        </small>\n                    </div>\n                </div>\n                <div class=\"plan-body pb-5\">\n                    <div class=\"plan-list align-center\">\n                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                            <li class=\"list-group-item\">\n                                Mobirise идеально подходит тем, кто не знаком с понятием веб-разработки\n                            </li>\n                            <li class=\"list-group-item\">\n                                15 GB трафик\n                            </li>\n                        </ul>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center pt-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                        <a href=\"https://mobirise.co\" class=\"btn btn-primary\">КУПИТЬ СЕЙЧАС</a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"plan col-12 mx-2 my-2 justify-content-center\" mbr-if=\"itemsCount > 3\" mbr-class=\"{\n                 'col-lg-4': itemsCount == 3,\n                 'col-lg-6': itemsCount == 2,\n                 'col-lg-3': itemsCount == 4}\">\n                <div class=\"plan-header text-center pt-5\">\n                    <h3 class=\"plan-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-title\">\n                        Максимальный\n                    </h3>\n                    <div class=\"plan-price\">\n                        <span mbr-text class=\"price-value mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price-value\">\n                            $\n                        </span>\n                        <span mbr-text class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".price-figure\">\n                            150</span>\n                        <small mbr-text class=\"price-term mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".price-term\">\n                            в год\n                        </small>\n                    </div>\n                </div>\n                <div class=\"plan-body pb-5\">\n                    <div class=\"plan-list align-center\">\n                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                            <li class=\"list-group-item\">\n                                Mobirise идеально подходит тем, кто не знаком с понятием веб-разработки\n                            </li>\n                            <li class=\"list-group-item\">\n                                20 GB трафик\n                            </li>\n                        </ul>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center pt-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                        <a href=\"https://mobirise.co\" class=\"btn btn-primary\">КУПИТЬ СЕЙЧАС</a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s41KX5RdU5",
+          "_anchor": "pricing-tables1-3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "color": "#767676",
+              "ol": {
+                "margin-bottom": "0",
                 "li": {
-
-                  "list-style": "none",
-                  "padding-left": ".5rem",
-                  "position": "relative",
-                  "&:before": {
-
-                    "position": "absolute",
-                    "left": "-56px",
-                    "margin-top": "-10px",
-                    "counter-increment": "myCounter",
-                    "content": "counter(myCounter)",
-                    "display": "inline-block",
-                    "text-align": "center",
-                    "margin": "5px 10px",
-                    "line-height": "40px",
-                    "transition": "all .2s",
-                    "color": "contrast(@counterColor)",
-                    "background": "@counterColor",
-                    "width": "40px",
-                    "height": "40px",
-                    "border-radius": "50%",
-                    "& when (@squareCounters)": {
-                      "border-radius": "0"
+                  "margin-bottom": "1rem"
+                },
+                "& when (@stylizedCounters)": {
+                  "counter-reset": "myCounter",
+                  "li": {
+                    "list-style": "none",
+                    "padding-left": ".5rem",
+                    "position": "relative",
+                    "&:before": {
+                      "position": "absolute",
+                      "left": "-56px",
+                      "margin-top": "-10px",
+                      "counter-increment": "myCounter",
+                      "content": "counter(myCounter)",
+                      "display": "inline-block",
+                      "text-align": "center",
+                      "margin": "5px 10px",
+                      "line-height": "40px",
+                      "transition": "all .2s",
+                      "color": "contrast(@counterColor)",
+                      "background": "@counterColor",
+                      "width": "40px",
+                      "height": "40px",
+                      "border-radius": "50%",
+                      "& when (@squareCounters)": {
+                        "border-radius": "0"
+                      }
                     }
                   }
                 }
               }
             }
-          }
-        }
-
-        ,
-        "_name": "content11",
-        "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Стилизованные маркеры\" name=\"stylizedCounters\" checked=\"\">\n        <input type=\"checkbox\" title=\"Квадратные маркеры\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Цвет маркера\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline=\"\" mbr-article=\"\">\n                <ol>\n                    <li><b>МОБИЛЬНАЯ АДАПТАЦИЯ</b> - никаких специальных действий не требуется, все сайты, которые вы делаете с Mobirise являются мобильными. Вам не придется создавать специальную мобильную версию вашего сайта, она будет адаптироваться автоматически. <a href=\"https://mobirise.co/\">Попробуйте сейчас!</a></li>\n                    <li><b>ЛЕГКО И ПРОСТО</b> - сократите время разработки. Перетащите блоки на страницу, отредактируйте содержимое и публикуйте. Никаких технических навыков не требуется. <a href=\"https://mobirise.co/\">Попробуйте сейчас!</a></li>\n                    <li><b>УНИКАЛЬНЫЕ СТИЛИ</b> - большой выбор готовых блоков - полноэкранное интро, bootstrap-карусель, слайдеры, галереи изображений с лайтбоксом, параллакс, фоновым видео, меню-гамбургером и липким меню. <a href=\"https://mobirise.co/\">Попробуйте сейчас!</a></li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
-        "_cid": "s4cTOnN2kp",
-        "_anchor": "content11-b",
-        "_protectedParams": [],
-        "_global": false,
-        "_once": false,
-        "_params": {}
-      }
-
-      ,
+          },
+          "_name": "content11",
+          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Стилизованные маркеры\" name=\"stylizedCounters\" checked=\"\">\n        <input type=\"checkbox\" title=\"Квадратные маркеры\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Цвет маркера\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline=\"\" mbr-article=\"\">\n                <ol>\n                    <li><b>МОБИЛЬНАЯ АДАПТАЦИЯ</b> - никаких специальных действий не требуется, все сайты, которые вы делаете с Mobirise являются мобильными. Вам не придется создавать специальную мобильную версию вашего сайта, она будет адаптироваться автоматически. <a href=\"https://mobirise.co/\">Попробуйте сейчас!</a></li>\n                    <li><b>ЛЕГКО И ПРОСТО</b> - сократите время разработки. Перетащите блоки на страницу, отредактируйте содержимое и публикуйте. Никаких технических навыков не требуется. <a href=\"https://mobirise.co/\">Попробуйте сейчас!</a></li>\n                    <li><b>УНИКАЛЬНЫЕ СТИЛИ</b> - большой выбор готовых блоков - полноэкранное интро, bootstrap-карусель, слайдеры, галереи изображений с лайтбоксом, параллакс, фоновым видео, меню-гамбургером и липким меню. <a href=\"https://mobirise.co/\">Попробуйте сейчас!</a></li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s4cTOnN2kp",
+          "_anchor": "content11-b",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
         {
-
-        "alias": false,
-        "_styles": {
-
-          "padding-top": "(@paddingTop * 15px)",
-          "padding-bottom": "(@paddingBottom * 15px)",
-          "background-color": "@bgColor",
-          ".mbr-slider .carousel-control": {
-            "background": "#1b1b1b"
-          }
-
-          ,
-          ".mbr-slider .carousel-control-prev": {
-            "left": "0",
-              "margin-left": "2.5rem"
-          }
-
-          ,
-          ".mbr-slider .carousel-control-next": {
-            "right": "0",
-              "margin-right": "2.5rem"
-          }
-
-          ,
-          ".mbr-slider .modal-body .close": {
-            "background": "#1b1b1b"
-          }
-
-          ,
-          ".mbr-gallery-item > div::before": {
-
-            "content": "''",
-            "position": "absolute",
-            "left": "0",
-            "top": "0",
-            "width": "100%",
-            "height": "100%",
-            "background": "@overlayColor",
-            "opacity": "0",
-            "-webkit-transition": "0.2s opacity ease-in-out",
-            "transition": "0.2s opacity ease-in-out",
-            "& when (@gradOverlay)": {
-              "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
-            }
-          }
-
-          ,
-          ".mbr-gallery-item > div:hover": {
-            ".mbr-gallery-title::before": {
-              "background": "transparent !important"
-            }
-
-            ,
-            "&:before": {
-              "opacity": "@overlayOpacity !important"
-            }
-          }
-
-          ,
-          ".mbr-gallery-title": {
-
-            "font-size": ".9em",
-            "position": "absolute",
-            "display": "block",
-            "width": "100%",
-            "bottom": "0",
-            "padding": "1rem",
-            "color": "#fff",
-            "z-index": "2",
-            "&:before": {
-
-              "content": "\" \"",
-              "width": "100%",
-              "height": "100%",
-              "top": "0",
-              "left": "0",
-              "z-index": "-1",
-              "position": "absolute",
-              "background": "@overlayColor !important",
-              "opacity": "@overlayOpacity",
-              "-webkit-transition": "0.2s background ease-in-out",
-              "transition": "0.2s background ease-in-out",
-              "& when (@gradOverlay)": {
-                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
-              }
-            }
-          }
-        }
-
-        ,
-        "_name": "gallery2",
-        "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полная ширина\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Градиентное наложение\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Наложение  Цвет 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Галерея\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-show-bullets mbr-gallery-show-text mbr-gallery-show-filter></div>\n    </div>\n\n</section>",
-        "_cid": "s4aenEil2o",
-        "_anchor": "gallery2-a",
-        "_protectedParams": [ "text_all",
-        "gallery__filtersTextStyle",
-        "gallery__filtersBtnStyle",
-        "gallery"
-
-        ],
-        "_global": false,
-        "_once": false,
-        "_params": {
-          "text_all": "All",
-            "gallery__filtersTextStyle": "display-7",
-            "gallery__filtersBtnStyle": "btn-primary-outline",
-            "gallery": []
-        }
-      }
-
-      ,
-        {
-
-        "alias": false,
-        "_styles": {
-
-          "padding-top": "(@paddingTop * 15px)",
-          "padding-bottom": "(@paddingBottom * 15px)",
-          "& when (@bg-type = 'image')": {
-            "background-image": "url(@bg-value)"
-          }
-
-          ,
-          "& when (@bg-type = 'color')": {
-            "background-color": "@bg-value"
-          }
-
-          ,
-          ".content": {
-            "@media (max-width: 767px)": {
-
-              "text-align": "center",
-              "> div:not(:last-child)": {
-                "margin-bottom": "2rem"
-              }
-            }
-          }
-
-          ,
-          ".map": {
-            "height": "18.75rem"
-          }
-
-          ,
-          ".footer-lower": {
-            ".copyright": {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".content": {
               "@media (max-width: 767px)": {
-                "margin-bottom": "1rem",
-                  "text-align": "center"
-              }
-            }
-
-            ,
-            "hr": {
-              "margin": "1rem 0",
-                "border-color": "#fff",
-                "opacity": ".05"
-            }
-
-            ,
-            ".social-list": {
-
-              "padding-left": "0",
-              "margin-bottom": "0",
-              "list-style": "none",
-              "display": "flex",
-              "-webkit-justify-content": "flex-end",
-              "justify-content": "flex-end",
-              "-webkit-flex-wrap": "wrap",
-              "flex-wrap": "wrap",
-              ".mbr-iconfont-social": {
-                "font-size": "1.3rem",
-                  "color": "#fff"
-              }
-
-              ,
-              ".soc-item": {
-                "margin": "0 .5rem"
-              }
-
-              ,
-              "a": {
-
-                "margin": "0",
-                "opacity": ".5",
-                "-webkit-transition": ".2s linear",
-                "transition": ".2s linear",
-                "&:hover": {
-                  "opacity": "1"
+                "text-align": "center",
+                "> div:not(:last-child)": {
+                  "margin-bottom": "2rem"
                 }
               }
-
-              ,
-              "@media (max-width: 767px)": {
-                "-webkit-justify-content": "center",
+            },
+            ".map": {
+              "height": "18.75rem"
+            },
+            ".footer-lower": {
+              ".copyright": {
+                "@media (max-width: 767px)": {
+                  "margin-bottom": "1rem",
+                  "text-align": "center"
+                }
+              },
+              "hr": {
+                "margin": "1rem 0",
+                "border-color": "#fff",
+                "opacity": ".05"
+              },
+              ".social-list": {
+                "padding-left": "0",
+                "margin-bottom": "0",
+                "list-style": "none",
+                "display": "flex",
+                "-webkit-justify-content": "flex-end",
+                "justify-content": "flex-end",
+                "-webkit-flex-wrap": "wrap",
+                "flex-wrap": "wrap",
+                ".mbr-iconfont-social": {
+                  "font-size": "1.3rem",
+                  "color": "#fff"
+                },
+                ".soc-item": {
+                  "margin": "0 .5rem"
+                },
+                "a": {
+                  "margin": "0",
+                  "opacity": ".5",
+                  "-webkit-transition": ".2s linear",
+                  "transition": ".2s linear",
+                  "&:hover": {
+                    "opacity": "1"
+                  }
+                },
+                "@media (max-width: 767px)": {
+                  "-webkit-justify-content": "center",
                   "justify-content": "center"
+                }
               }
-            }
-          }
-
-          ,
-          ".google-map": {
-
-            "height": "25rem",
-            "position": "relative",
-            "iframe": {
-              "height": "100%",
+            },
+            ".google-map": {
+              "height": "25rem",
+              "position": "relative",
+              "iframe": {
+                "height": "100%",
                 "width": "100%"
-            }
-
-            ,
-            "[data-state-details]": {
-              "color": "#6b6763",
+              },
+              "[data-state-details]": {
+                "color": "#6b6763",
                 "font-family": "Montserrat",
                 "height": "1.5em",
                 "margin-top": "-0.75em",
@@ -1050,153 +715,109 @@
                 "text-align": "center",
                 "top": "50%",
                 "width": "100%"
-            }
-
-            ,
-            "&[data-state]": {
-              "background": "#e9e5dc"
-            }
-
-            ,
-            "&[data-state=\"loading\"]": {
-              "[data-state-details]": {
-                "display": "none"
+              },
+              "&[data-state]": {
+                "background": "#e9e5dc"
+              },
+              "&[data-state=\"loading\"]": {
+                "[data-state-details]": {
+                  "display": "none"
+                },
+                "&::after": {}
               }
-
-              ,
-              "&::after": {}
             }
-          }
-        }
-
-        ,
-        "_name": "footer2",
-        "_customHTML": "<section group=\"Footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"map\" title=\"Карта\" name=\"googleMap\" place-id=\"iframe\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.689546213894!2d30.527727415547027!3d50.44688309550328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce5376b00001%3A0x21ac61a540c8ff48!2savtogran!5e0!3m2!1sru!2sua!4v1594127500307!5m2!1sru!2sua&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; aria-hidden=&quot;false&quot; tabindex=&quot;0&quot;></iframe>\">\n        <input type=\"checkbox\" title=\"Авторское право\" name=\"showCopyright\" checked>\n        <select title=\"Иконки\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Эффект появления\" name=\"reveal\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/demontazh-staroy-shkoly-ul-khorolskaya-3-1140x740.jpeg\" selected parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#2e2e2e\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row content mbr-white\">\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <p class=\"mbr-text\"></p><p></p><p>\n                    <strong>Адрес</strong>\n                    <br>\n                    <br><a href=\"https://g.page/Avtogran\" target=\"_blank\">Офіс 302,&nbsp; &nbsp; вул.Банкова,2&nbsp;</a><br><a href=\"https://g.page/Avtogran\" target=\"_blank\">Київ&nbsp;&nbsp;&nbsp;&nbsp;01024&nbsp;&nbsp;&nbsp;&nbsp;Україна&nbsp;</a><br>\n                    <br>\n                    <br><strong>Контакты</strong>\n                    <br>\n                    <br>Email:<br><a href=\"mailto:info@avtogran.com.ua\">info@avtogran.com.ua</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>Телефон:<br><a href=\"tel:+380442532352\">+380 44 253 2352</a><br><br><a href=\"tel:+380504441146\">+380 50 444 1146</a><br>(Viber, Telegram, WhatsApp)<br></p><p></p><br><p>Факс:&nbsp;&nbsp;&nbsp;&nbsp;</p><p>+380 44 253 2352</p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <p class=\"mbr-text\">\n                    <strong>Ссылки</strong>\n                    <br>\n                    <br><a href=\"https://avtogran.com.ua/\" target=\"_blank\">Основной сайт</a>&nbsp;<br><br><b>ТОВ Автогран</b>&nbsp;<br>\n                    <br>- демонтаж зданий и сооружений;\n<br>- снос железобетонных конструкций;\n<br>- рытьё котлованов;\n<br>- земляные работы;\n<br>- снятие дорожной подушки;\n<br>- асфальтирование;\n<br>- прокладка сетей и коммуникаций;\n<br>- благоустройство территории;\n<br>- ландшафтный дизайн;\n<br>- перевозка грунта.<br></p>\n            </div>\n            <div class=\"col-12 col-md-6\">\n                <div class=\"google-map\" mbr-map=\"googleMap\"></div>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-sm-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-sm-6 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\">\n                        © Copyright 2020 TOV Avtogran - All Rights Reserved\n                    </p>\n                </div>\n                <div class=\"col-md-6\">\n                    <div class=\"social-list align-right\" mbr-if=\"iconsCount > 0\">\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                            <a href=\"https://m.me/avtogran\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-messenger socicon\" style=\"color: rgb(14, 223, 245); fill: rgb(14, 223, 245);\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            <a href=\"https://facebook.com/avtogran\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\" style=\"color: rgb(20, 156, 242); fill: rgb(20, 156, 242);\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            <a href=\"https://www.youtube.com/channel/UC6aUraBG_MexYpLKbonRchg\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\" style=\"color: rgb(255, 127, 159); fill: rgb(255, 127, 159);\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            <a href=\"whatsapp://send?phone=+380504441146\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-whatsapp socicon\" style=\"color: rgb(17, 245, 58); fill: rgb(17, 245, 58);\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            <a href=\"tg://resolve?domain=Avtogran\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-telegram socicon\" style=\"color: rgb(239, 239, 239); fill: rgb(239, 239, 239);\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"viber://add?number=380504441146\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-viber socicon\" style=\"color: rgb(226, 130, 233); fill: rgb(226, 130, 233);\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-        "_cid": "s43poZuBv2",
-        "_anchor": "footer2-8",
-        "_protectedParams": [],
-        "_global": false,
-        "_once": false,
-        "_params": {}
-      }
-
-      ,
+          },
+          "_name": "footer2",
+          "_customHTML": "<section group=\"Footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"map\" title=\"Карта\" name=\"googleMap\" place-id=\"iframe\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.689546213894!2d30.527727415547027!3d50.44688309550328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce5376b00001%3A0x21ac61a540c8ff48!2savtogran!5e0!3m2!1sru!2sua!4v1594127500307!5m2!1sru!2sua&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; aria-hidden=&quot;false&quot; tabindex=&quot;0&quot;></iframe>\">\n        <input type=\"checkbox\" title=\"Авторское право\" name=\"showCopyright\" checked>\n        <select title=\"Иконки\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Эффект появления\" name=\"reveal\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/demontazh-staroy-shkoly-ul-khorolskaya-3-1140x740.jpeg\" selected parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#2e2e2e\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#160202\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row content mbr-white\">\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <p class=\"mbr-text\"></p><p></p><p>\n                    <strong>Адрес</strong>\n                    <br>\n                    <br><a href=\"https://g.page/Avtogran\" target=\"_blank\">Офіс 302,&nbsp; &nbsp; вул.Банкова,2&nbsp;</a><br><a href=\"https://g.page/Avtogran\" target=\"_blank\">Київ&nbsp;&nbsp;&nbsp;&nbsp;01024&nbsp;&nbsp;&nbsp;&nbsp;Україна&nbsp;</a><br>\n                    <br>\n                    <br><strong>Контакты</strong>\n                    <br>\n                    <br>Email:<br><a href=\"mailto:info@avtogran.com.ua\">info@avtogran.com.ua</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>Телефон:<br><a href=\"tel:+380442532352\">+380 44 253 2352</a><br><br><a href=\"tel:+380504441146\">+380 50 444 1146</a><br>(Viber, Telegram, WhatsApp)<br></p><p></p><br><p>Факс:&nbsp;&nbsp;&nbsp;&nbsp;</p><p>+380 44 253 2352</p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <p class=\"mbr-text\">\n                    <strong>Ссылки</strong>\n                    <br>\n                    <br><a href=\"https://avtogran.com.ua/\" target=\"_blank\">Основной сайт</a>&nbsp;<br><br><b>ТОВ Автогран</b>&nbsp;<br>\n                    <br>- демонтаж зданий и сооружений;\n<br>- снос железобетонных конструкций;\n<br>- рытьё котлованов;\n<br>- земляные работы;\n<br>- снятие дорожной подушки;\n<br>- асфальтирование;\n<br>- прокладка сетей и коммуникаций;\n<br>- благоустройство территории;\n<br>- ландшафтный дизайн;\n<br>- перевозка грунта.<br></p>\n            </div>\n            <div class=\"col-12 col-md-6\">\n                <div class=\"google-map\" mbr-map=\"googleMap\"></div>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-sm-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-sm-6 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\">\n                        © Copyright 2020 TOV Avtogran - All Rights Reserved\n                    </p>\n                </div>\n                <div class=\"col-md-6\">\n                    <div class=\"social-list align-right\" mbr-if=\"iconsCount > 0\">\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                            <a href=\"https://m.me/avtogran\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-messenger socicon\" style=\"color: rgb(14, 223, 245); fill: rgb(14, 223, 245);\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            <a href=\"https://facebook.com/avtogran\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\" style=\"color: rgb(20, 156, 242); fill: rgb(20, 156, 242);\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            <a href=\"https://www.youtube.com/channel/UC6aUraBG_MexYpLKbonRchg\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\" style=\"color: rgb(255, 127, 159); fill: rgb(255, 127, 159);\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            <a href=\"whatsapp://send?phone=+380504441146\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-whatsapp socicon\" style=\"color: rgb(17, 245, 58); fill: rgb(17, 245, 58);\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            <a href=\"tg://resolve?domain=Avtogran\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-telegram socicon\" style=\"color: rgb(239, 239, 239); fill: rgb(239, 239, 239);\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"viber://add?number=380504441146\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-viber socicon\" style=\"color: rgb(226, 130, 233); fill: rgb(226, 130, 233);\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s43poZuBv2",
+          "_anchor": "footer2-8",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
         {
-
-        "alias": false,
-        "_styles": {
-
-          "padding-top": "(@paddingTop * 15px)",
-          "padding-bottom": "(@paddingBottom * 15px)",
-          "& when (@bg-type = 'color')": {
-            "background-color": "@bg-value"
-          }
-
-          ,
-          "& when (@bg-type = 'image')": {
-            "background-image": "url(@bg-value)"
-          }
-
-          ,
-          ".socicon-bg-facebook": {
-            "background": "#3e5b98",
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".socicon-bg-facebook": {
+              "background": "#3e5b98",
               "color": "contrast(#3e5b98)"
-          }
-
-          ,
-          ".socicon-bg-twitter": {
-            "background": "#4da7de",
+            },
+            ".socicon-bg-twitter": {
+              "background": "#4da7de",
               "color": "contrast(#4da7de)"
-          }
-
-          ,
-          ".socicon-bg-googleplus": {
-            "background": "#dd4b39",
+            },
+            ".socicon-bg-googleplus": {
+              "background": "#dd4b39",
               "color": "contrast(#dd4b39)"
-          }
-
-          ,
-          ".socicon-bg-vkontakte": {
-            "background": "#5a7fa6",
+            },
+            ".socicon-bg-vkontakte": {
+              "background": "#5a7fa6",
               "color": "contrast(#5a7fa6)"
-          }
-
-          ,
-          ".socicon-bg-odnoklassniki": {
-            "background": "#f48420",
+            },
+            ".socicon-bg-odnoklassniki": {
+              "background": "#f48420",
               "color": "contrast(#f48420)"
-          }
-
-          ,
-          ".socicon-bg-pinterest": {
-            "background": "#c92619",
+            },
+            ".socicon-bg-pinterest": {
+              "background": "#c92619",
               "color": "contrast(#c92619)"
-          }
-
-          ,
-          ".socicon-bg-mail": {
-            "background": "#134785",
+            },
+            ".socicon-bg-mail": {
+              "background": "#134785",
               "color": "contrast(#134785)"
-          }
-
-          ,
-          ".btn-social": {
-
-            "font-size": "20px",
-            "border-radius": "50%",
-            "padding": "0",
-            "width": "44px",
-            "height": "44px",
-            "line-height": "44px",
-            "text-align": "center",
-            "position": "relative",
-            "cursor": "pointer",
-            "i": {
-              "top": "0",
+            },
+            ".btn-social": {
+              "font-size": "20px",
+              "border-radius": "50%",
+              "padding": "0",
+              "width": "44px",
+              "height": "44px",
+              "line-height": "44px",
+              "text-align": "center",
+              "position": "relative",
+              "cursor": "pointer",
+              "i": {
+                "top": "0",
                 "line-height": "44px",
                 "width": "44px"
+              },
+              "& + .btn": {
+                "margin-left": ".1rem"
+              },
+              "border": "none !important"
+            },
+            "& when (@squareIcons)": {
+              ".btn-social": {
+                "border-radius": "0 !important"
+              }
+            },
+            "[class^=\"socicon-\"]:before, [class*=\" socicon-\"]:before": {
+              "line-height": "44px"
+            },
+            "@media (max-width: 767px)": {
+              ".btn": {
+                "font-size": "20px !important"
+              }
             }
-
-            ,
-            "& + .btn": {
-              "margin-left": ".1rem"
-            }
-
-            ,
-            "border": "none !important"
-          }
-
-          ,
-          "& when (@squareIcons)": {
-            ".btn-social": {
-              "border-radius": "0 !important"
-            }
-          }
-
-          ,
-          "[class^=\"socicon-\"]:before, [class*=\" socicon-\"]:before": {
-            "line-height": "44px"
-          }
-
-          ,
-          "@media (max-width: 767px)": {
-            ".btn": {
-              "font-size": "20px !important"
-            }
-          }
+          },
+          "_name": "social-buttons3",
+          "_customHTML": "<section group=\"Social\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"SocialLikes,Socicon\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline type=\"range\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input inline type=\"range\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Квадратные иконки\" name=\"squareIcons\">\n        <header>Совместно использовать текущую страницу</header>\n        <input type=\"checkbox\" title=\"Facebook\" name=\"facebook\" checked>\n        <input type=\"checkbox\" title=\"Twitter\" name=\"twitter\">\n        <input type=\"checkbox\" title=\"ВКонтакте\" name=\"vkontakte\">\n        <input type=\"checkbox\" title=\"Одноклассники\" name=\"odnoklassniki\">\n        <input type=\"checkbox\" title=\"Pinterest\" name=\"pinterest\">\n        <input type=\"checkbox\" title=\"Mail.ru\" name=\"mailru\">\n        \n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-md-8 align-center\">\n                <h2 class=\"pb-3 mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title \">\n                    ПОДЕЛИТЕСЬ ЭТОЙ СТРАНИЦЕЙ!\n                </h2>\n                <div>\n                    <div class=\"mbr-social-likes\">\n                        <span mbr-if=\"facebook\" class=\"btn btn-social socicon-bg-facebook facebook mx-2\" title=\"Поделиться в Facebook\">\n                            <i class=\"socicon socicon-facebook\"></i>\n                        </span>\n                        <span mbr-if=\"twitter\" class=\"btn btn-social twitter socicon-bg-twitter mx-2\" title=\"Поделиться в Twitter\">\n                            <i class=\"socicon socicon-twitter\"></i>\n                        </span>\n                        <span mbr-if=\"vkontakte\" class=\"btn btn-social vkontakte socicon-bg-vkontakte mx-2\" title=\"Поделиться в VK\">\n                            <i class=\"socicon socicon-vkontakte\"></i>\n                        </span>\n                        <span mbr-if=\"odnoklassniki\" class=\"btn btn-social odnoklassniki socicon-bg-odnoklassniki mx-2\" title=\"Поделиться в OK\">\n                            <i class=\"socicon socicon-odnoklassniki\"></i>\n                        </span>\n                        <span mbr-if=\"pinterest\" class=\"btn btn-social pinterest socicon-bg-pinterest mx-2\" title=\"Поделиться в Pinterest\">\n                            <i class=\"socicon socicon-pinterest\"></i>\n                        </span>\n                        <span mbr-if=\"mailru\" class=\"btn btn-social mailru socicon-bg-mail mx-2\" title=\"Поделиться в Mail.ru\">\n                            <i class=\"socicon socicon-mail\"></i>\n                        </span>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s43o8ds3FF",
+          "_anchor": "social-buttons3-6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
-
-        ,
-        "_name": "social-buttons3",
-        "_customHTML": "<section group=\"Social\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"SocialLikes,Socicon\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline type=\"range\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input inline type=\"range\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Квадратные иконки\" name=\"squareIcons\">\n        <header>Совместно использовать текущую страницу</header>\n        <input type=\"checkbox\" title=\"Facebook\" name=\"facebook\" checked>\n        <input type=\"checkbox\" title=\"Twitter\" name=\"twitter\">\n        <input type=\"checkbox\" title=\"ВКонтакте\" name=\"vkontakte\">\n        <input type=\"checkbox\" title=\"Одноклассники\" name=\"odnoklassniki\">\n        <input type=\"checkbox\" title=\"Pinterest\" name=\"pinterest\">\n        <input type=\"checkbox\" title=\"Mail.ru\" name=\"mailru\">\n        \n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-md-8 align-center\">\n                <h2 class=\"pb-3 mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title \">\n                    ПОДЕЛИТЕСЬ ЭТОЙ СТРАНИЦЕЙ!\n                </h2>\n                <div>\n                    <div class=\"mbr-social-likes\">\n                        <span mbr-if=\"facebook\" class=\"btn btn-social socicon-bg-facebook facebook mx-2\" title=\"Поделиться в Facebook\">\n                            <i class=\"socicon socicon-facebook\"></i>\n                        </span>\n                        <span mbr-if=\"twitter\" class=\"btn btn-social twitter socicon-bg-twitter mx-2\" title=\"Поделиться в Twitter\">\n                            <i class=\"socicon socicon-twitter\"></i>\n                        </span>\n                        <span mbr-if=\"vkontakte\" class=\"btn btn-social vkontakte socicon-bg-vkontakte mx-2\" title=\"Поделиться в VK\">\n                            <i class=\"socicon socicon-vkontakte\"></i>\n                        </span>\n                        <span mbr-if=\"odnoklassniki\" class=\"btn btn-social odnoklassniki socicon-bg-odnoklassniki mx-2\" title=\"Поделиться в OK\">\n                            <i class=\"socicon socicon-odnoklassniki\"></i>\n                        </span>\n                        <span mbr-if=\"pinterest\" class=\"btn btn-social pinterest socicon-bg-pinterest mx-2\" title=\"Поделиться в Pinterest\">\n                            <i class=\"socicon socicon-pinterest\"></i>\n                        </span>\n                        <span mbr-if=\"mailru\" class=\"btn btn-social mailru socicon-bg-mail mx-2\" title=\"Поделиться в Mail.ru\">\n                            <i class=\"socicon socicon-mail\"></i>\n                        </span>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-        "_cid": "s43o8ds3FF",
-        "_anchor": "social-buttons3-6",
-        "_protectedParams": [],
-        "_global": false,
-        "_once": false,
-        "_params": {}
-      }
-
       ]
     }
   }
