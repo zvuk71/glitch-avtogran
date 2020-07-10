@@ -46,7 +46,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 12,
+    "uniqCompNum": 15,
     "versionPublish": "4.12.4",
     "imageResize": true,
     "favicon": false,
@@ -501,7 +501,7 @@
             }
           },
           "_name": "header6",
-          "_customHTML": "<section class=\"header6\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Стрелка\" name=\"showArrow\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/korosten-8-1140x740.jpg\" parallax selected>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#767676\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"https://www.youtube.com/watch?v=GFp9ZajlAOU\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Демонтаж зданий<br>Аренда спецтехники<br>Котлованы в Киеве</h1>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Заказать экскаватор с гидромолотом, узнать цены на котлованы в Киеве.<br><br> Арендовать спецтехнику - погрузчики, самосвалы, экскаваторы, катки.<br><br>Снятие и укладка асфальта, дробление бетона и щебня, земляные работы&nbsp;</p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://avtogran.com.ua/\" data-app-placeholder=\"Введите Текст\" target=\"_blank\"><span class=\"mbri-sites mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(249, 242, 149);\"></span>Основной сайт</a>\n                        <a class=\"btn btn-md btn-white-outline\" href=\"https://www.youtube.com/channel/UC6aUraBG_MexYpLKbonRchg\" data-app-placeholder=\"Введите Текст\" target=\"_blank\">YouTube канал</a></div>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header6\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Стрелка\" name=\"showArrow\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/korosten-8-1140x740.jpg\" parallax selected>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#767676\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"https://www.youtube.com/watch?v=GFp9ZajlAOU\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Демонтаж зданий<br>Аренда спецтехники<br>Котлованы в Киеве</h1>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Заказать экскаватор с гидромолотом, узнать цены на котлованы в Киеве.<br><br> Арендовать спецтехнику - погрузчики, самосвалы, экскаваторы, катки.<br><br>Снятие и укладка асфальта, дробление бетона и щебня, земляные работы&nbsp;</p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://avtogran.com.ua/\" data-app-placeholder=\"Введите Текст\" target=\"_blank\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 51, 102);\"></span>Основной сайт</a>\n                        <a class=\"btn btn-md btn-white-outline\" href=\"https://www.youtube.com/channel/UC6aUraBG_MexYpLKbonRchg\" data-app-placeholder=\"Введите Текст\" target=\"_blank\">YouTube канал</a></div>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "s41LcLK6Gz",
           "_anchor": "header6-4",
           "_protectedParams": [],
@@ -631,6 +631,385 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                }
+              }
+            },
+            ".mbr-gallery-item > div > span": {
+              "text-align": "center"
+            }
+          },
+          "_name": "gallery2",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полная ширина\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Градиентное наложение\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Наложение  Цвет 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Галерея\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-show-filter mbr-gallery-show-bullets mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_cid": "s4j6VIj1TS",
+          "_anchor": "gallery2-e",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Земляные работы",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020610-65572020-6-5-7-4-58.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=GFp9ZajlAOU",
+                "image": "@PROJECT_PATH@/assets/images/mobirise2020610-65572020-6-5-7-2-57.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mobirise2020610-65572020-6-5-7-2-57-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Земляные работы на Олимпийском стадионе в Киеве<br>",
+                "active": false
+              },
+              {
+                "tags": "Демонтаж",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020610-65572020-6-5-7-13-10.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=mRhABOXAbrA",
+                "image": "@PROJECT_PATH@/assets/images/mobirise2020610-65572020-6-5-7-2-57.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mobirise2020610-65572020-6-5-7-2-57-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Демонтаж старых конструкций Зоопарка в Киеве",
+                "active": false
+              },
+              {
+                "tags": "Демонтаж",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise202068-2348402020-6-4-0-57-11.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=vdraSmo2-2U",
+                "image": "@PROJECT_PATH@/assets/images/imag4968-2000x1131.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/imag4968-2000x1131-800x452.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Демонтаж конструкций киевского Зоопарка",
+                "active": false
+              },
+              {
+                "tags": "Демонтаж",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020610-65572020-6-5-7-16-13.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=0PmHwx5wXPg",
+                "image": "@PROJECT_PATH@/assets/images/imag4962-2000x1131.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/imag4962-2000x1131-800x452.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Снос конструкций Зоопарка (Киев)",
+                "active": false
+              },
+              {
+                "tags": "Земляные работы",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020610-65572020-6-5-7-16-36.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=cGYDNZTYSHc",
+                "image": "@PROJECT_PATH@/assets/images/imag4962-2000x1131.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/imag4962-2000x1131-800x452.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Земляные работы - строительство завода ДО г.Коростень",
+                "active": false
+              },
+              {
+                "tags": "Демонтаж",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020610-65572020-6-5-7-17-53.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=mTlSl_JWwmA",
+                "image": "@PROJECT_PATH@/assets/images/imag4789-2000x1131.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/imag4789-2000x1131-800x452.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Введите заголовок здесь",
+                "active": false
+              },
+              {
+                "tags": "Демонтаж",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020610-65572020-6-5-7-18-18.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=KlB9JO1Yel8",
+                "image": "@PROJECT_PATH@/assets/images/imag4961-2000x1131.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/imag4961-2000x1131-800x452.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Демонтаж сооружений Зоопарка, Киев",
+                "active": false
+              },
+              {
+                "tags": "Земляные работы",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020610-65572020-6-5-7-21-39.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=VHxFufE8R4E",
+                "image": "@PROJECT_PATH@/assets/images/imag4963-2000x1131.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/imag4963-2000x1131-800x452.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Перевозка грунта - строительство стадиона в Киеве",
+                "active": false
+              },
+              {
+                "tags": "Демонтаж",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020610-65572020-6-5-7-22-16.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=Via4Z0x0eZs",
+                "image": "@PROJECT_PATH@/assets/images/imag4964-2000x1131.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/imag4964-2000x1131-800x452.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Работа гидромолота - демонтаж завода Галактон",
+                "active": false
+              },
+              {
+                "tags": "Демонтаж",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020610-65572020-6-5-7-36-33.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=SQzeyvkmeqA",
+                "image": "@PROJECT_PATH@/assets/images/imag4647-2000x1131.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/imag4647-2000x1131-800x452.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Демонтаж дома на ул.Щербакова, Киев",
+                "active": false
+              },
+              {
+                "tags": "Демонтаж",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise202068-2348402020-6-4-0-26-14.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=OoiXADeDaf4",
+                "image": "@PROJECT_PATH@/assets/images/imag4653-2000x1131.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/imag4653-2000x1131-800x452.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Демонтаж домов по ул.Землячки",
+                "active": false
+              },
+              {
+                "tags": "Земляные работы",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020610-65572020-6-5-7-30.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=gMImY1LDVCY",
+                "image": "@PROJECT_PATH@/assets/images/imag4655-2000x1131.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/imag4655-2000x1131-800x452.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Земляные работы по ул.Землячки",
+                "active": false
+              },
+              {
+                "tags": "Прокладка сетей",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020610-65572020-6-5-7-33-59.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=T5IenbnkdRc",
+                "image": "@PROJECT_PATH@/assets/images/imag4788-2000x1131.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/imag4788-2000x1131-800x452.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Укладка труб",
+                "active": false
+              },
+              {
+                "tags": "Прокладка сетей",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise202069-132212020-6-4-1-48-3.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=SMBOPsz-xjE",
+                "image": "@PROJECT_PATH@/assets/images/imag4789-2000x1131.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/imag4789-2000x1131-800x452.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Прокладка коммуникаций",
+                "active": false
+              },
+              {
+                "tags": "Демонтаж",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020610-65572020-6-5-7-34-43.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=ZUOk2ssQKDA",
+                "image": "@PROJECT_PATH@/assets/images/imag4961-1-2000x1131.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/imag4961-1-2000x1131-800x452.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Демонтаж сооружений завода Галактон",
+                "active": false
+              },
+              {
+                "tags": "Демонтаж",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020610-65572020-6-5-7-2-57.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=UvlXYX8KO5Q",
+                "image": "@PROJECT_PATH@/assets/images/imag4962-2000x1131.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/imag4962-2000x1131-800x452.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Снос инженерных конструкций",
+                "active": false
+              },
+              {
+                "tags": "Демонтаж",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020610-65572020-6-5-7-35-48.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=CQgqI9HNhHA",
+                "image": "@PROJECT_PATH@/assets/images/imag4963-1-2000x1131.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/imag4963-1-2000x1131-800x452.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Снос инженерных сооружений",
+                "active": false
+              },
+              {
+                "tags": "Асфальтирование",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020610-65572020-6-5-7-38-10.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=ImjDQoVBKXM",
+                "image": "@PROJECT_PATH@/assets/images/imag4964-2000x1131.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/imag4964-2000x1131-800x452.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Укладка асфальта в Green Hills",
+                "active": false
+              },
+              {
+                "tags": "Асфальтирование",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020610-65572020-6-5-7-42-2.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=0uVzoxKdKog",
+                "image": "@PROJECT_PATH@/assets/images/imag4962-2000x1131.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/imag4962-2000x1131-800x452.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Самосвал Renault Kerax",
+                "active": false
+              },
+              {
+                "tags": "Асфальтирование",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020610-65572020-6-5-7-42-25.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=bh_Lj-nGAGU",
+                "image": "@PROJECT_PATH@/assets/images/imag4963-1-2000x1131.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/imag4963-1-2000x1131-800x452.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Укладка асфальта",
+                "active": true
+              },
+              {
+                "tags": "Демонтаж",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020610-65572020-6-5-7-43-17.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=3Dqwxqh1GzY",
+                "image": "@PROJECT_PATH@/assets/images/imag4964-2000x1131.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/imag4964-2000x1131-800x452.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Демонтаж завода Галактон",
+                "active": false
+              },
+              {
+                "tags": "Земляные работы",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020610-65572020-6-5-7-4-58.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=GFp9ZajlAOU",
+                "image": "@PROJECT_PATH@/assets/images/2017-vul-krushelnytska-1-1140x740.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2017-vul-krushelnytska-1-1140x740-800x519.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Ковшовый экскаватор и самосвал",
+                "active": false
+              }
+            ]
+          }
         },
         {
           "alias": false,
@@ -817,6 +1196,200 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                }
+              }
+            }
+          },
+          "_name": "gallery2",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders &amp; Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полная ширина\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline=\"\">\n        <input type=\"range\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline=\"\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Градиентное наложение\" name=\"gradOverlay\" checked=\"\">\n        <input type=\"color\" title=\"Наложение  Цвет 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline=\"\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Галерея\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-show-filter=\"\"></div>\n    </div>\n\n</section>",
+          "_cid": "s4j6VaNrXA",
+          "_anchor": "gallery2-d",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Потрясающие",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/background1.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background1.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Введите заголовок здесь",
+                "active": true
+              },
+              {
+                "tags": "Отзывчивый",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/background2.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background2.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Введите заголовок здесь",
+                "active": false
+              },
+              {
+                "tags": "Творческий",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/background3.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background3.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Введите заголовок здесь",
+                "active": false
+              },
+              {
+                "tags": "Анимированный",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/background4.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background4.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Введите заголовок здесь",
+                "active": false
+              },
+              {
+                "tags": "Потрясающие",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/background5.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background5.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Введите заголовок здесь",
+                "active": false
+              },
+              {
+                "tags": "Потрясающие",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/background6.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background6.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Введите заголовок здесь",
+                "active": false
+              },
+              {
+                "tags": "Отзывчивый",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/background7.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background7.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Введите заголовок здесь",
+                "active": false
+              },
+              {
+                "tags": "Анимированный",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/background8.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background8.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Введите заголовок здесь",
+                "active": false
+              }
+            ]
+          }
         }
       ]
     }
